@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frequently Asked Questions — WEB DEVELOPMENT AGENCY</title>
+  <meta name="description" content="Categorized answers to common questions about website design, custom frontend development, e-commerce storefronts, pricing scopes, and ongoing maintenance.">
+  <link rel="canonical" href="https://example.com/faq.html">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header" id="header">
+    <div class="header-inner container">
+      <a href="index.html" class="brand-logo" aria-label="Web Development Agency Home">
+        <div class="logo-symbol">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <span class="logo-text">WEB DEVELOPMENT AGENCY</span>
+      </a>
+
+      <!-- Clean Header: Only 4 Core Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="start-project.html" class="btn btn-primary btn-sm">Start a Project</a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Open navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation Menu">
+    <div class="mobile-drawer-header">
+      <div class="brand-logo">
+        <div class="brand-symbol"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <span class="brand-text">AGENCY</span>
+      </div>
+      <button class="mobile-drawer-close" aria-label="Close Mobile Menu"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <div class="mobile-menu-list">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about.html" class="mobile-nav-link">About</a>
+      <div class="mobile-has-submenu">
+        <a href="#" class="mobile-nav-link mobile-submenu-toggle">Services <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="mobile-submenu">
+          <a href="services.html" class="mobile-submenu-link">• Services Overview</a>
+          <a href="website-design.html" class="mobile-submenu-link">• Website Design</a>
+          <a href="business-websites.html" class="mobile-submenu-link">• Business Websites</a>
+          <a href="ecommerce-websites.html" class="mobile-submenu-link">• E-commerce Websites</a>
+          <a href="landing-pages.html" class="mobile-submenu-link">• Landing Pages</a>
+          <a href="portfolio-websites.html" class="mobile-submenu-link">• Portfolio Websites</a>
+          <a href="web-applications.html" class="mobile-submenu-link">• Web Applications</a>
+          <a href="wordpress-websites.html" class="mobile-submenu-link">• WordPress Websites</a>
+          <a href="website-redesign.html" class="mobile-submenu-link">• Website Redesign</a>
+          <a href="seo-services.html" class="mobile-submenu-link">• SEO Services</a>
+          <a href="website-maintenance.html" class="mobile-submenu-link">• Maintenance & Support</a>
+        </div>
+      </div>
+      <a href="industries.html" class="mobile-nav-link">Industries</a>
+      <a href="portfolio.html" class="mobile-nav-link">Portfolio</a>
+      <a href="process.html" class="mobile-nav-link">Process</a>
+      <a href="pricing.html" class="mobile-nav-link">Pricing</a>
+      <a href="technologies.html" class="mobile-nav-link">Technologies</a>
+      <a href="careers.html" class="mobile-nav-link">Careers</a>
+      <a href="blog.html" class="mobile-nav-link">Blog & Insights</a>
+      <a href="faq.html" class="mobile-nav-link active">FAQ</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+    </div>
+    <div style="margin-top: auto; padding-top: 1.5rem;">
+      <a href="start-project.html" class="btn btn-primary" style="width: 100%;">Start a Project</a>
+    </div>
+  </aside>
+
+  <!-- Hero -->
+  <section class="section-hero">
+    <div class="container text-center">
+      <div class="reveal">
+        <span class="section-tag">Knowledge Base & FAQ</span>
+        <h1 style="max-width: 900px; margin: 0 auto 1.5rem;">
+          Frequently Asked <span class="gradient-text">Questions</span>.
+        </h1>
+        <p class="lead" style="max-width: 760px; margin: 0 auto 2.5rem;">
+          Find answers to common questions about our website development process, technical architecture, e-commerce capabilities, pricing scopes, and ongoing support.
+        </p>
+
+        <div class="image-wrapper" style="aspect-ratio: 16/9; max-width: 1080px; margin: 0 auto;">
+          <img src="images/faq-hero-support.jpeg" alt="Web Development Agency - Faq Hero Support" class="img-fluid" loading="eager" onerror="this.onerror=null;this.src='assets/images/faq-hero-support.jpeg'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categorized Accordion FAQ Section -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      
+      <!-- Category 1: General & Getting Started -->
+      <div style="margin-bottom: 3.5rem;">
+        <h3 style="margin-bottom: 1.5rem; color: var(--accent-secondary); font-size: 1.4rem;" class="reveal">1. General Questions</h3>
+        <div class="faq-list">
+          <div class="faq-item active reveal">
+            <button class="faq-question" aria-expanded="true">
+              <span>How do I start a website project with your agency?</span>
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>You can begin by navigating to our "Start a Project" page and completing the 5-step project brief form. Alternatively, send us an enquiry through the Contact page. We review your requirements and follow up with a structured scope of work.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal reveal-delay-1">
+            <button class="faq-question" aria-expanded="false">
+              <span>What information do you need before development starts?</span>
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>We typically require: an overview of your business model, your desired sitemap (pages required), any brand assets (logos, high-res photos, color preferences), and descriptions of your core services. If you need assistance structuring content, we guide you during the Discovery phase.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category 2: Website Design & Development -->
+      <div style="margin-bottom: 3.5rem;">
+        <h3 style="margin-bottom: 1.5rem; color: var(--accent-secondary); font-size: 1.4rem;" class="reveal">2. Website Design & Development</h3>
+        <div class="faq-list">
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do you create responsive websites for mobile and tablet?</span>
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Every website is built mobile-first and tested rigorously across standard mobile viewports (360px, 390px), tablets (768px), laptops (1024px), and desktop displays (1440px+). Zero horizontal scroll and full touch optimization are guaranteed.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal reveal-delay-1">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can you redesign an existing, outdated website?</span>
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. We offer complete website redesign services. We preserve valuable SEO search rankings through 301 redirect mapping, upgrade outdated visual layouts to modern dark aesthetics, and rebuild slow code in lightweight Vanilla JS.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal reveal-delay-2">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can I request custom features or complex business workflows?</span>
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely. Because our team writes clean, modular Vanilla JavaScript and CSS without relying on rigid website builders, we can engineer custom multi-step forms, interactive filters, calculators, and API interfaces tailored to your exact workflows.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category 3: E-Commerce & Hosting -->
+      <div style="margin-bottom: 3.5rem;">
+        <h3 style="margin-bottom: 1.5rem; color: var(--accent-secondary); font-size: 1.4rem;" class="reveal">3. E-Commerce & Hosting</h3>
+        <div class="faq-list">
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can you build an e-commerce website?</span>
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. We engineer complete online storefront frontends with product category grids, faceted search, slide-out cart drawers, and checkout layouts ready for WooCommerce or custom payment gateway API integrations.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal reveal-delay-1">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do you provide domain and hosting assistance?</span>
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. We configure and deploy our static websites directly onto Hostinger static hosting or your preferred web host, set up free SSL certificates, and configure DNS records.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category 4: Pricing, Timelines & SEO -->
+      <div>
+        <h3 style="margin-bottom: 1.5rem; color: var(--accent-secondary); font-size: 1.4rem;" class="reveal">4. Pricing, Timelines & SEO</h3>
+        <div class="faq-list">
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false">
+              <span>How much does a website cost?</span>
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Every website project has unique scope requirements. Pricing depends directly on the number of unique page layouts, feature complexity (e.g., e-commerce, custom app dashboards), and content integration needs. We provide transparent custom quotations after reviewing your brief.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal reveal-delay-1">
+            <button class="faq-question" aria-expanded="false">
+              <span>How long does website development take?</span>
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Timelines depend on scope and feedback velocity. A focused 3-page starter website can typically be completed in 2 to 3 weeks, while comprehensive multi-page corporate or e-commerce platforms typically require 4 to 8 weeks through discovery, design, development, and testing.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal reveal-delay-2">
+            <button class="faq-question" aria-expanded="false">
+              <span>Will my website be SEO-friendly?</span>
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. All websites are built with strict technical SEO hygiene: semantic HTML5 tags, meta descriptions, Open Graph social tags, sitemap.xml, robots.txt, and fast Google Core Web Vitals speed scores.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal reveal-delay-3">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can I update my website content later?</span>
+              <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Static HTML files are organized with clear, readable comments that make updating text and images straightforward. Alternatively, we offer ongoing maintenance agreements or can deploy your project onto a customized WordPress CMS.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <h2>Still Have Questions About Your Project?</h2>
+        <p>Our team is available to discuss your technical requirements and provide clear recommendations.</p>
+        <div class="btn-group" style="justify-content: center;">
+          <a href="contact.html" class="btn btn-primary btn-lg">Contact Our Agency</a>
+          <a href="start-project.html" class="btn btn-secondary btn-lg">Start Project Brief</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 1rem;">
+            <div class="brand-symbol"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+            <span class="brand-text">WEB DEVELOPMENT AGENCY</span>
+          </a>
+          <p>Professional website design and development solutions for businesses, startups, and growing brands.</p>
+          <div class="demo-disclaimer-box" style="margin-top: 1.5rem;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            <span>Demonstration Website Showcase — All content and mockups are illustrative.</span>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="website-design.html" class="footer-link">Website Design</a></li>
+            <li><a href="business-websites.html" class="footer-link">Business Websites</a></li>
+            <li><a href="ecommerce-websites.html" class="footer-link">E-commerce Websites</a></li>
+            <li><a href="landing-pages.html" class="footer-link">Landing Pages</a></li>
+            <li><a href="web-applications.html" class="footer-link">Web Applications</a></li>
+            <li><a href="website-redesign.html" class="footer-link">Website Redesign</a></li>
+            <li><a href="seo-services.html" class="footer-link">SEO Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="industries.html" class="footer-link">Industries</a></li>
+            <li><a href="portfolio.html" class="footer-link">Portfolio</a></li>
+            <li><a href="process.html" class="footer-link">Process</a></li>
+            <li><a href="pricing.html" class="footer-link">Pricing</a></li>
+            <li><a href="careers.html" class="footer-link">Careers</a></li>
+            <li><a href="blog.html" class="footer-link">Blog & Insights</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>0000000000</span></div>
+          <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg><a href="mailto:demo@example.com" style="color: inherit;">demo@example.com</a></div>
+          <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg><span>Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 WEB DEVELOPMENT AGENCY. Illustrative Demonstration Website.</div>
+        <div class="footer-legal-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-and-conditions.html">Terms and Conditions</a>
+          <a href="technologies.html">Technologies</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m18 15-6-6-6 6"/></svg></button>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/interactions.js"></script>
+</body>
+</html>

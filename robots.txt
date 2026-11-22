@@ -1,0 +1,6 @@
+# Robots.txt for WEB DEVELOPMENT AGENCY
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://example.com/sitemap.xml

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services Overview — WEB DEVELOPMENT AGENCY</title>
+  <meta name="description" content="Complete website design and development services: custom business websites, e-commerce storefronts, high-converting landing pages, web apps, and maintenance.">
+  <link rel="canonical" href="https://example.com/services.html">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header" id="header">
+    <div class="header-inner container">
+      <a href="index.html" class="brand-logo" aria-label="Web Development Agency Home">
+        <div class="logo-symbol">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <span class="logo-text">WEB DEVELOPMENT AGENCY</span>
+      </a>
+
+      <!-- Clean Header: Only 4 Core Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="services.html" class="nav-link active">Services</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="start-project.html" class="btn btn-primary btn-sm">Start a Project</a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Open navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation Menu">
+    <div class="mobile-drawer-header">
+      <div class="brand-logo">
+        <div class="brand-symbol"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <span class="brand-text">AGENCY</span>
+      </div>
+      <button class="mobile-drawer-close" aria-label="Close Mobile Menu"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <div class="mobile-menu-list">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about.html" class="mobile-nav-link">About</a>
+      <div class="mobile-has-submenu">
+        <a href="#" class="mobile-nav-link mobile-submenu-toggle">Services <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="mobile-submenu">
+          <a href="services.html" class="mobile-submenu-link">• Services Overview</a>
+          <a href="website-design.html" class="mobile-submenu-link">• Website Design</a>
+          <a href="business-websites.html" class="mobile-submenu-link">• Business Websites</a>
+          <a href="ecommerce-websites.html" class="mobile-submenu-link">• E-commerce Websites</a>
+          <a href="landing-pages.html" class="mobile-submenu-link">• Landing Pages</a>
+          <a href="portfolio-websites.html" class="mobile-submenu-link">• Portfolio Websites</a>
+          <a href="web-applications.html" class="mobile-submenu-link">• Web Applications</a>
+          <a href="wordpress-websites.html" class="mobile-submenu-link">• WordPress Websites</a>
+          <a href="website-redesign.html" class="mobile-submenu-link">• Website Redesign</a>
+          <a href="seo-services.html" class="mobile-submenu-link">• SEO Services</a>
+          <a href="website-maintenance.html" class="mobile-submenu-link">• Maintenance & Support</a>
+        </div>
+      </div>
+      <a href="industries.html" class="mobile-nav-link">Industries</a>
+      <a href="portfolio.html" class="mobile-nav-link">Portfolio</a>
+      <a href="process.html" class="mobile-nav-link">Process</a>
+      <a href="pricing.html" class="mobile-nav-link">Pricing</a>
+      <a href="technologies.html" class="mobile-nav-link">Technologies</a>
+      <a href="careers.html" class="mobile-nav-link">Careers</a>
+      <a href="blog.html" class="mobile-nav-link">Blog & Insights</a>
+      <a href="faq.html" class="mobile-nav-link">FAQ</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+    </div>
+    <div style="margin-top: auto; padding-top: 1.5rem;">
+      <a href="start-project.html" class="btn btn-primary" style="width: 100%;">Start a Project</a>
+    </div>
+  </aside>
+
+  <!-- Hero Banner -->
+  <section class="section-hero">
+    <div class="container text-center">
+      <div class="reveal">
+        <span class="section-tag">Agency Offerings</span>
+        <h1 style="max-width: 920px; margin: 0 auto 1.5rem;">
+          Complete Website Design & <span class="gradient-text">Development Services</span>.
+        </h1>
+        <p class="lead" style="max-width: 760px; margin: 0 auto 3rem;">
+          We build purpose-engineered digital platforms tailored to your business model. Explore our 10 core service areas below.
+        </p>
+
+        <div class="image-wrapper" style="aspect-ratio: 16/9; max-width: 1080px; margin: 0 auto;">
+          <img src="images/services-overview-banner.jpeg" alt="Web Development Agency - Overview Banner" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/services-overview-banner.jpeg'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed Service Cards (10 Services) -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="grid-2" style="gap: 2.5rem;">
+
+        <!-- 1. Website Design and Development -->
+        <div class="card reveal">
+          <div class="image-wrapper" style="aspect-ratio: 16/10; margin-bottom: 1.5rem;">
+          <img src="images/services-custom-web-design.jpeg" alt="Web Development Agency - Custom Web Design" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/services-custom-web-design.jpeg'">
+        </div>
+          <span class="badge badge-primary" style="margin-bottom: 0.75rem;">Full-Cycle Creation</span>
+          <h3 style="margin-bottom: 0.75rem;">Website Design & Development</h3>
+          <p style="margin-bottom: 1.25rem;">Complete end-to-end website creation from wireframes and visual UI design to semantic frontend engineering and launch testing.</p>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 1.5rem;">
+            <strong style="font-size: 0.85rem; color: var(--accent-secondary); display: block; margin-bottom: 0.5rem; text-transform: uppercase;">Key Deliverables:</strong>
+            <ul style="font-size: 0.88rem; color: var(--text-secondary); display: flex; flex-direction: column; gap: 0.35rem;">
+              <li>• Custom Figma UI/UX mockups</li>
+              <li>• Responsive HTML5 / CSS3 templates</li>
+              <li>• Contact forms with client-side validation</li>
+              <li>• Cross-browser testing on Chrome, Safari, Firefox</li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <a href="website-design.html" class="btn btn-outline btn-sm">Learn More</a>
+            <a href="start-project.html" class="btn btn-primary btn-sm">Request a Quote</a>
+          </div>
+        </div>
+
+        <!-- 2. Business Website Development -->
+        <div class="card reveal reveal-delay-1">
+          <div class="image-wrapper" style="aspect-ratio: 16/10; margin-bottom: 1.5rem;">
+          <img src="images/services-business-websites.jpeg" alt="Web Development Agency - Business Websites" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/services-business-websites.jpeg'">
+        </div>
+          <span class="badge badge-primary" style="margin-bottom: 0.75rem;">Corporate & SMB</span>
+          <h3 style="margin-bottom: 0.75rem;">Business Website Development</h3>
+          <p style="margin-bottom: 1.25rem;">Multi-page commercial websites designed to establish authority, communicate service offerings, and capture high-intent inquiries.</p>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 1.5rem;">
+            <strong style="font-size: 0.85rem; color: var(--accent-secondary); display: block; margin-bottom: 0.5rem; text-transform: uppercase;">Key Deliverables:</strong>
+            <ul style="font-size: 0.88rem; color: var(--text-secondary); display: flex; flex-direction: column; gap: 0.35rem;">
+              <li>• Multi-page architecture (About, Services, Case Studies)</li>
+              <li>• Service catalog and feature breakdowns</li>
+              <li>• Commercial inquiry & quote capture forms</li>
+              <li>• WhatsApp / Call-to-action integration concepts</li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <a href="business-websites.html" class="btn btn-outline btn-sm">Learn More</a>
+            <a href="start-project.html" class="btn btn-primary btn-sm">Request a Quote</a>
+          </div>
+        </div>
+
+        <!-- 3. E-commerce Website Development -->
+        <div class="card reveal">
+          <div class="image-wrapper" style="aspect-ratio: 16/10; margin-bottom: 1.5rem;">
+          <img src="images/services-ecommerce-platforms.jpeg" alt="Web Development Agency - Ecommerce Platforms" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/services-ecommerce-platforms.jpeg'">
+        </div>
+          <span class="badge badge-secondary" style="margin-bottom: 0.75rem;">Retail & Digital Commerce</span>
+          <h3 style="margin-bottom: 0.75rem;">E-commerce Website Development</h3>
+          <p style="margin-bottom: 1.25rem;">Modern online storefronts featuring responsive product grids, category filtering, cart management, and seamless product showcase pages.</p>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 1.5rem;">
+            <strong style="font-size: 0.85rem; color: var(--accent-secondary); display: block; margin-bottom: 0.5rem; text-transform: uppercase;">Key Deliverables:</strong>
+            <ul style="font-size: 0.88rem; color: var(--text-secondary); display: flex; flex-direction: column; gap: 0.35rem;">
+              <li>• Interactive product catalog with filters & sorting</li>
+              <li>• Dynamic shopping cart drawer interface</li>
+              <li>• Conversion-optimized checkout layout</li>
+              <li>• Payment gateway integration architecture</li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <a href="ecommerce-websites.html" class="btn btn-outline btn-sm">Learn More</a>
+            <a href="start-project.html" class="btn btn-primary btn-sm">Request a Quote</a>
+          </div>
+        </div>
+
+        <!-- 4. Landing Page Development -->
+        <div class="card reveal reveal-delay-1">
+          <div class="image-wrapper" style="aspect-ratio: 16/10; margin-bottom: 1.5rem;">
+          <img src="images/services-landing-pages.jpeg" alt="Web Development Agency - Landing Pages" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/services-landing-pages.jpeg'">
+        </div>
+          <span class="badge badge-secondary" style="margin-bottom: 0.75rem;">High Conversion</span>
+          <h3 style="margin-bottom: 0.75rem;">Landing Page Development</h3>
+          <p style="margin-bottom: 1.25rem;">Laser-focused standalone pages built for marketing campaigns, product launches, lead magnets, and paid advertising traffic.</p>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 1.5rem;">
+            <strong style="font-size: 0.85rem; color: var(--accent-secondary); display: block; margin-bottom: 0.5rem; text-transform: uppercase;">Key Deliverables:</strong>
+            <ul style="font-size: 0.88rem; color: var(--text-secondary); display: flex; flex-direction: column; gap: 0.35rem;">
+              <li>• Compelling headline & value proposition placement</li>
+              <li>• Single-focus lead capture form design</li>
+              <li>• Benefit matrices and feature comparisons</li>
+              <li>• Sub-second page load optimization for ad spend</li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <a href="landing-pages.html" class="btn btn-outline btn-sm">Learn More</a>
+            <a href="start-project.html" class="btn btn-primary btn-sm">Request a Quote</a>
+          </div>
+        </div>
+
+        <!-- 5. Portfolio Website Development -->
+        <div class="card reveal">
+          <div class="image-wrapper" style="aspect-ratio: 16/10; margin-bottom: 1.5rem;">
+          <img src="images/services-portfolio-sites.jpeg" alt="Web Development Agency - Sites" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/services-portfolio-sites.jpeg'">
+        </div>
+          <span class="badge badge-primary" style="margin-bottom: 0.75rem;">Personal Branding</span>
+          <h3 style="margin-bottom: 0.75rem;">Portfolio Website Development</h3>
+          <p style="margin-bottom: 1.25rem;">Showcase websites for software engineers, designers, consultants, photographers, and independent professionals.</p>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 1.5rem;">
+            <strong style="font-size: 0.85rem; color: var(--accent-secondary); display: block; margin-bottom: 0.5rem; text-transform: uppercase;">Key Deliverables:</strong>
+            <ul style="font-size: 0.88rem; color: var(--text-secondary); display: flex; flex-direction: column; gap: 0.35rem;">
+              <li>• Project gallery with interactive case studies</li>
+              <li>• Skills matrix & career timeline breakdown</li>
+              <li>• Resume download & social link integration</li>
+              <li>• Minimalist, high-impact aesthetic</li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <a href="portfolio-websites.html" class="btn btn-outline btn-sm">Learn More</a>
+            <a href="start-project.html" class="btn btn-primary btn-sm">Request a Quote</a>
+          </div>
+        </div>
+
+        <!-- 6. Web Application Development -->
+        <div class="card reveal reveal-delay-1">
+          <div class="image-wrapper" style="aspect-ratio: 16/10; margin-bottom: 1.5rem;">
+          <img src="images/services-web-applications.jpeg" alt="Web Development Agency - Web Applications" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/services-web-applications.jpeg'">
+        </div>
+          <span class="badge badge-primary" style="margin-bottom: 0.75rem;">Custom App UI</span>
+          <h3 style="margin-bottom: 0.75rem;">Web Application Development</h3>
+          <p style="margin-bottom: 1.25rem;">Interactive frontend interfaces for administrative systems, client portals, SaaS applications, and operational workflow tools.</p>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 1.5rem;">
+            <strong style="font-size: 0.85rem; color: var(--accent-secondary); display: block; margin-bottom: 0.5rem; text-transform: uppercase;">Key Deliverables:</strong>
+            <ul style="font-size: 0.88rem; color: var(--text-secondary); display: flex; flex-direction: column; gap: 0.35rem;">
+              <li>• Modular component architecture</li>
+              <li>• Dashboard charts, data tables, and filters</li>
+              <li>• Role-based interface views & modals</li>
+              <li>• REST API frontend integration ready</li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <a href="web-applications.html" class="btn btn-outline btn-sm">Learn More</a>
+            <a href="start-project.html" class="btn btn-primary btn-sm">Request a Quote</a>
+          </div>
+        </div>
+
+        <!-- 7. WordPress Website Development -->
+        <div class="card reveal">
+          <div class="image-wrapper" style="aspect-ratio: 16/10; margin-bottom: 1.5rem;">
+          <img src="images/services-wordpress-development.jpeg" alt="Web Development Agency - Wordpress Development" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/services-wordpress-development.jpeg'">
+        </div>
+          <span class="badge badge-secondary" style="margin-bottom: 0.75rem;">CMS Solutions</span>
+          <h3 style="margin-bottom: 0.75rem;">WordPress Website Development</h3>
+          <p style="margin-bottom: 1.25rem;">Custom WordPress implementations allowing non-technical marketing teams to publish articles, edit pages, and manage content easily.</p>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 1.5rem;">
+            <strong style="font-size: 0.85rem; color: var(--accent-secondary); display: block; margin-bottom: 0.5rem; text-transform: uppercase;">Key Deliverables:</strong>
+            <ul style="font-size: 0.88rem; color: var(--text-secondary); display: flex; flex-direction: column; gap: 0.35rem;">
+              <li>• Custom block themes without page builder bloat</li>
+              <li>• WooCommerce storefront integration</li>
+              <li>• Editorial workflow & media management setup</li>
+              <li>• Hardened security & caching optimization</li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <a href="wordpress-websites.html" class="btn btn-outline btn-sm">Learn More</a>
+            <a href="start-project.html" class="btn btn-primary btn-sm">Request a Quote</a>
+          </div>
+        </div>
+
+        <!-- 8. Website Redesign -->
+        <div class="card reveal reveal-delay-1">
+          <div class="image-wrapper" style="aspect-ratio: 16/10; margin-bottom: 1.5rem;">
+          <img src="images/services-website-redesign.jpeg" alt="Web Development Agency - Website Redesign" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/services-website-redesign.jpeg'">
+        </div>
+          <span class="badge badge-primary" style="margin-bottom: 0.75rem;">Modernization</span>
+          <h3 style="margin-bottom: 0.75rem;">Website Redesign & Upgrades</h3>
+          <p style="margin-bottom: 1.25rem;">Transform dated, slow, and non-responsive legacy websites into fast, modern, high-converting digital storefronts.</p>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 1.5rem;">
+            <strong style="font-size: 0.85rem; color: var(--accent-secondary); display: block; margin-bottom: 0.5rem; text-transform: uppercase;">Key Deliverables:</strong>
+            <ul style="font-size: 0.88rem; color: var(--text-secondary); display: flex; flex-direction: column; gap: 0.35rem;">
+              <li>• UX audit of existing friction points</li>
+              <li>• Complete visual overhaul and dark theme styling</li>
+              <li>• Mobile viewport reconstruction</li>
+              <li>• SEO preservation and 301 redirect map</li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <a href="website-redesign.html" class="btn btn-outline btn-sm">Learn More</a>
+            <a href="start-project.html" class="btn btn-primary btn-sm">Request a Quote</a>
+          </div>
+        </div>
+
+        <!-- 9. SEO Services -->
+        <div class="card reveal">
+          <div class="image-wrapper" style="aspect-ratio: 16/10; margin-bottom: 1.5rem;">
+          <img src="images/services-seo-optimization.jpeg" alt="Web Development Agency - Seo Optimization" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/services-seo-optimization.jpeg'">
+        </div>
+          <span class="badge badge-secondary" style="margin-bottom: 0.75rem;">Search Foundations</span>
+          <h3 style="margin-bottom: 0.75rem;">SEO-Friendly Web Development</h3>
+          <p style="margin-bottom: 1.25rem;">Build websites with rock-solid technical SEO foundations, ensuring search engines can discover, index, and rank your content effectively.</p>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 1.5rem;">
+            <strong style="font-size: 0.85rem; color: var(--accent-secondary); display: block; margin-bottom: 0.5rem; text-transform: uppercase;">Key Deliverables:</strong>
+            <ul style="font-size: 0.88rem; color: var(--text-secondary); display: flex; flex-direction: column; gap: 0.35rem;">
+              <li>• Clean semantic heading hierarchy (H1-H6)</li>
+              <li>• Open Graph & Twitter Cards metadata</li>
+              <li>• XML sitemap & robots.txt generation</li>
+              <li>• Google Core Web Vitals performance tuning</li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <a href="seo-services.html" class="btn btn-outline btn-sm">Learn More</a>
+            <a href="start-project.html" class="btn btn-primary btn-sm">Request a Quote</a>
+          </div>
+        </div>
+
+        <!-- 10. Website Maintenance -->
+        <div class="card reveal reveal-delay-1">
+          <div class="image-wrapper" style="aspect-ratio: 16/10; margin-bottom: 1.5rem;">
+          <img src="images/services-maintenance-support.jpeg" alt="Web Development Agency - Maintenance Support" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/services-maintenance-support.jpeg'">
+        </div>
+          <span class="badge badge-primary" style="margin-bottom: 0.75rem;">Ongoing Support</span>
+          <h3 style="margin-bottom: 0.75rem;">Website Maintenance & Support</h3>
+          <p style="margin-bottom: 1.25rem;">Keep your digital assets secure, updated, and high-performing with ongoing maintenance, bug fixes, and content update agreements.</p>
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 1.5rem;">
+            <strong style="font-size: 0.85rem; color: var(--accent-secondary); display: block; margin-bottom: 0.5rem; text-transform: uppercase;">Key Deliverables:</strong>
+            <ul style="font-size: 0.88rem; color: var(--text-secondary); display: flex; flex-direction: column; gap: 0.35rem;">
+              <li>• Regular content and media updates</li>
+              <li>• Broken link checks & browser compatibility audits</li>
+              <li>• Backup coordination & uptime monitoring</li>
+              <li>• Technical consultation & feature additions</li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <a href="website-maintenance.html" class="btn btn-outline btn-sm">Learn More</a>
+            <a href="start-project.html" class="btn btn-primary btn-sm">Request a Quote</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <h2>Need a Tailored Website Solution?</h2>
+        <p>Tell us about your project requirements and we will help you identify the ideal scope, design architecture, and timeline.</p>
+        <div class="btn-group" style="justify-content: center;">
+          <a href="start-project.html" class="btn btn-primary btn-lg">Start Project Brief</a>
+          <a href="contact.html" class="btn btn-secondary btn-lg">Contact Our Agency</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 1rem;">
+            <div class="brand-symbol"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+            <span class="brand-text">WEB DEVELOPMENT AGENCY</span>
+          </a>
+          <p>Professional website design and development solutions for businesses, startups, and growing brands.</p>
+          <div class="demo-disclaimer-box" style="margin-top: 1.5rem;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            <span>Demonstration Website Showcase — All content and mockups are illustrative.</span>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="website-design.html" class="footer-link">Website Design</a></li>
+            <li><a href="business-websites.html" class="footer-link">Business Websites</a></li>
+            <li><a href="ecommerce-websites.html" class="footer-link">E-commerce Websites</a></li>
+            <li><a href="landing-pages.html" class="footer-link">Landing Pages</a></li>
+            <li><a href="web-applications.html" class="footer-link">Web Applications</a></li>
+            <li><a href="website-redesign.html" class="footer-link">Website Redesign</a></li>
+            <li><a href="seo-services.html" class="footer-link">SEO Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="industries.html" class="footer-link">Industries</a></li>
+            <li><a href="portfolio.html" class="footer-link">Portfolio</a></li>
+            <li><a href="process.html" class="footer-link">Process</a></li>
+            <li><a href="pricing.html" class="footer-link">Pricing</a></li>
+            <li><a href="careers.html" class="footer-link">Careers</a></li>
+            <li><a href="blog.html" class="footer-link">Blog & Insights</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>0000000000</span></div>
+          <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg><a href="mailto:demo@example.com" style="color: inherit;">demo@example.com</a></div>
+          <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg><span>Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 WEB DEVELOPMENT AGENCY. Illustrative Demonstration Website.</div>
+        <div class="footer-legal-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-and-conditions.html">Terms and Conditions</a>
+          <a href="technologies.html">Technologies</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m18 15-6-6-6 6"/></svg></button>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/interactions.js"></script>
+</body>
+</html>

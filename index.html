@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB DEVELOPMENT AGENCY — Premium Websites That Help Businesses Grow</title>
+  <meta name="description" content="Professional website design and development for businesses, startups, and growing brands. High-performance custom websites built with clean code and modern design.">
+  <meta name="keywords" content="web development agency, website design, business websites, e-commerce, custom web applications, responsive websites">
+  
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="WEB DEVELOPMENT AGENCY — We Design and Develop Websites That Help Businesses Grow">
+  <meta property="og:description" content="From business websites and e-commerce platforms to custom web applications, we create modern digital experiences designed around your business goals.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/index.html">
+  <link rel="canonical" href="https://example.com/index.html">
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header" id="header">
+    <div class="header-inner container">
+      <a href="index.html" class="brand-logo" aria-label="Web Development Agency Home">
+        <div class="logo-symbol">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <span class="logo-text">WEB DEVELOPMENT AGENCY</span>
+      </a>
+
+      <!-- Clean Header: Only 4 Core Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="start-project.html" class="btn btn-primary btn-sm">Start a Project</a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Open navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation Menu">
+    <div class="mobile-drawer-header">
+      <div class="brand-logo">
+        <div class="brand-symbol">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <span class="brand-text">AGENCY</span>
+      </div>
+      <button class="mobile-drawer-close" aria-label="Close Mobile Menu">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+
+    <div class="mobile-menu-list">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about.html" class="mobile-nav-link">About</a>
+      
+      <div class="mobile-has-submenu">
+        <a href="#" class="mobile-nav-link mobile-submenu-toggle">
+          Services
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+        </a>
+        <div class="mobile-submenu">
+          <a href="services.html" class="mobile-submenu-link">• Services Overview</a>
+          <a href="website-design.html" class="mobile-submenu-link">• Website Design</a>
+          <a href="business-websites.html" class="mobile-submenu-link">• Business Websites</a>
+          <a href="ecommerce-websites.html" class="mobile-submenu-link">• E-commerce Websites</a>
+          <a href="landing-pages.html" class="mobile-submenu-link">• Landing Pages</a>
+          <a href="portfolio-websites.html" class="mobile-submenu-link">• Portfolio Websites</a>
+          <a href="web-applications.html" class="mobile-submenu-link">• Web Applications</a>
+          <a href="wordpress-websites.html" class="mobile-submenu-link">• WordPress Websites</a>
+          <a href="website-redesign.html" class="mobile-submenu-link">• Website Redesign</a>
+          <a href="seo-services.html" class="mobile-submenu-link">• SEO Services</a>
+          <a href="website-maintenance.html" class="mobile-submenu-link">• Maintenance & Support</a>
+        </div>
+      </div>
+
+      <a href="industries.html" class="mobile-nav-link">Industries</a>
+      <a href="portfolio.html" class="mobile-nav-link">Portfolio</a>
+      <a href="process.html" class="mobile-nav-link">Process</a>
+      <a href="pricing.html" class="mobile-nav-link">Pricing</a>
+      <a href="technologies.html" class="mobile-nav-link">Technologies</a>
+      <a href="careers.html" class="mobile-nav-link">Careers</a>
+      <a href="blog.html" class="mobile-nav-link">Blog & Insights</a>
+      <a href="faq.html" class="mobile-nav-link">FAQ</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+    </div>
+
+    <div style="margin-top: auto; padding-top: 1.5rem;">
+      <a href="start-project.html" class="btn btn-primary" style="width: 100%;">Start a Project</a>
+    </div>
+  </aside>
+
+  <!-- Hero Section -->
+  <section class="section-hero">
+    <div class="container text-center">
+      <div class="reveal">
+        <span class="section-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Digital Agency Showcase & Demonstration
+        </span>
+        <h1 style="max-width: 960px; margin: 0 auto 1.5rem;">
+          We Build Websites That Turn Visitors Into <span class="gradient-text">Customers</span>.
+        </h1>
+        <p class="lead" style="max-width: 760px; margin: 0 auto 2.5rem;">
+          Professional website design and development for businesses, startups, and growing brands. Build a stronger online presence with a website designed around your goals.
+        </p>
+
+        <div class="btn-group" style="justify-content: center;">
+          <a href="start-project.html" class="btn btn-primary btn-lg">
+            Start Your Project
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a href="portfolio.html" class="btn btn-secondary btn-lg">Explore Our Work</a>
+        </div>
+      </div>
+
+      <!-- Hero Website Mockup Composition -->
+      <div class="hero-mockup-wrapper reveal reveal-delay-1">
+        <!-- Floating Accessory 1: Performance Widget -->
+        <div class="hero-float-card hero-float-left">
+          <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <div style="width: 38px; height: 38px; border-radius: 8px; background: rgba(54, 214, 232, 0.15); display: flex; align-items: center; justify-content: center; color: var(--accent-secondary);">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <div style="text-align: left;">
+              <span style="font-size: 0.75rem; color: var(--text-muted); display: block;">Optimization Standard</span>
+              <strong style="font-size: 0.95rem; color: var(--text-main);">100% Responsive Architecture</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Accessory 2: Security & Code Widget -->
+        <div class="hero-float-card hero-float-right">
+          <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <div style="width: 38px; height: 38px; border-radius: 8px; background: rgba(152, 120, 255, 0.15); display: flex; align-items: center; justify-content: center; color: var(--accent-highlight);">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </div>
+            <div style="text-align: left;">
+              <span style="font-size: 0.75rem; color: var(--text-muted); display: block;">Clean Stack</span>
+              <strong style="font-size: 0.95rem; color: var(--text-main);">Semantic HTML5 & Vanilla JS</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Centerpiece Browser Mockup -->
+        <div class="hero-main-mockup">
+          <div class="browser-mockup">
+            <div class="browser-toolbar">
+              <div class="browser-dots">
+                <span class="browser-dot dot-red"></span>
+                <span class="browser-dot dot-yellow"></span>
+                <span class="browser-dot dot-green"></span>
+              </div>
+              <div class="browser-address">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                <span>https://agency-showcase-preview.internal/overview</span>
+              </div>
+            </div>
+            <div class="browser-content">
+              <!-- Illustrative Agency Workspace Hero Placeholder -->
+              <div class="image-wrapper" style="aspect-ratio: 16/9;">
+          <img src="images/hero-agency-workspace.jpeg" alt="Web Development Agency - Hero Agency Workspace" class="img-fluid" loading="eager" onerror="this.onerror=null;this.src='assets/images/hero-agency-workspace.jpeg'">
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Horizontal Service Ticker -->
+  <div class="ticker-wrap" aria-hidden="true">
+    <div class="ticker">
+      <div class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> CUSTOM WEBSITE DESIGN</div>
+      <div class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> E-COMMERCE PLATFORMS</div>
+      <div class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> HIGH-CONVERTING LANDING PAGES</div>
+      <div class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> CUSTOM WEB APPLICATIONS</div>
+      <div class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> CORPORATE BUSINESS WEBSITES</div>
+      <div class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> TECHNICAL SEO FOUNDATIONS</div>
+      <!-- Duplicate for infinite scroll loop -->
+      <div class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> CUSTOM WEBSITE DESIGN</div>
+      <div class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> E-COMMERCE PLATFORMS</div>
+      <div class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> HIGH-CONVERTING LANDING PAGES</div>
+      <div class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> CUSTOM WEB APPLICATIONS</div>
+      <div class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> CORPORATE BUSINESS WEBSITES</div>
+      <div class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> TECHNICAL SEO FOUNDATIONS</div>
+    </div>
+  </div>
+
+  <!-- Services Overview Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Core Capabilities</span>
+        <h2 class="section-title">Complete Website Design & Development Solutions</h2>
+        <p class="section-subtitle">From custom UI/UX mockups to full frontend engineering, we tailor every component to deliver intuitive user journeys and clear business conversion.</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- Service Card 1 -->
+        <div class="card reveal">
+          <div class="card-header-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+          </div>
+          <div class="image-wrapper" style="aspect-ratio: 16/10; margin-bottom: 1.5rem;">
+          <img src="images/service-design-thumb.jpeg" alt="Web Development Agency - Design Thumb" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/service-design-thumb.jpeg'">
+        </div>
+          <h3 style="font-size: 1.35rem; margin-bottom: 0.75rem;">Custom Website Design</h3>
+          <p style="margin-bottom: 1.5rem;">Distinctive visual layouts crafted specifically for your industry, avoiding generic cookie-cutter templates.</p>
+          <ul style="margin-bottom: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem; color: var(--text-secondary);">
+            <li style="display: flex; align-items: center; gap: 0.5rem;"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="var(--accent-secondary)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Intuitive UI/UX wireframes</li>
+            <li style="display: flex; align-items: center; gap: 0.5rem;"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="var(--accent-secondary)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Mobile-first responsive layouts</li>
+            <li style="display: flex; align-items: center; gap: 0.5rem;"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="var(--accent-secondary)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Brand-aligned design systems</li>
+          </ul>
+          <a href="website-design.html" class="btn btn-outline btn-sm" style="width: 100%;">Learn More & Scope</a>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="card reveal reveal-delay-1">
+          <div class="card-header-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+          </div>
+          <div class="image-wrapper" style="aspect-ratio: 16/10; margin-bottom: 1.5rem;">
+          <img src="images/service-ecommerce-thumb.jpeg" alt="Web Development Agency - Ecommerce Thumb" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/service-ecommerce-thumb.jpeg'">
+        </div>
+          <h3 style="font-size: 1.35rem; margin-bottom: 0.75rem;">E-commerce Storefronts</h3>
+          <p style="margin-bottom: 1.5rem;">Engaging product catalogues, streamlined checkout experiences, and friction-free shopping interfaces.</p>
+          <ul style="margin-bottom: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem; color: var(--text-secondary);">
+            <li style="display: flex; align-items: center; gap: 0.5rem;"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="var(--accent-secondary)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Product category & filter grids</li>
+            <li style="display: flex; align-items: center; gap: 0.5rem;"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="var(--accent-secondary)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Shopping cart & drawer UI</li>
+            <li style="display: flex; align-items: center; gap: 0.5rem;"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="var(--accent-secondary)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Checkout workflow optimization</li>
+          </ul>
+          <a href="ecommerce-websites.html" class="btn btn-outline btn-sm" style="width: 100%;">Explore Storefronts</a>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="card reveal reveal-delay-2">
+          <div class="card-header-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <div class="image-wrapper" style="aspect-ratio: 16/10; margin-bottom: 1.5rem;">
+          <img src="images/service-webapp-thumb.jpeg" alt="Web Development Agency - Webapp Thumb" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/service-webapp-thumb.jpeg'">
+        </div>
+          <h3 style="font-size: 1.35rem; margin-bottom: 0.75rem;">Custom Web Applications</h3>
+          <p style="margin-bottom: 1.5rem;">Interactive administrative portals, data dashboards, and internal business application interfaces.</p>
+          <ul style="margin-bottom: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem; color: var(--text-secondary);">
+            <li style="display: flex; align-items: center; gap: 0.5rem;"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="var(--accent-secondary)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Analytics & KPI dashboard interfaces</li>
+            <li style="display: flex; align-items: center; gap: 0.5rem;"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="var(--accent-secondary)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Dynamic search & data filtering</li>
+            <li style="display: flex; align-items: center; gap: 0.5rem;"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="var(--accent-secondary)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Frontend state & API integration</li>
+          </ul>
+          <a href="web-applications.html" class="btn btn-outline btn-sm" style="width: 100%;">View App Capabilities</a>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 3rem;" class="reveal">
+        <a href="services.html" class="btn btn-secondary">
+          Browse All 10 Agency Services
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Website Categories We Build (With Interactive Browser Mockups) -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Diverse Web Formats</span>
+        <h2 class="section-title">Website Concepts Built for Specific Business Needs</h2>
+        <p class="section-subtitle">Every business model demands a unique layout structure. Here are the core website architectures we design and build.</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- Mockup Card 1: Corporate -->
+        <div class="browser-mockup reveal">
+          <div class="browser-toolbar">
+            <div class="browser-dots">
+              <span class="browser-dot dot-red"></span>
+              <span class="browser-dot dot-yellow"></span>
+              <span class="browser-dot dot-green"></span>
+            </div>
+            <div class="browser-address">
+              <span>demo.agency/corporate</span>
+            </div>
+          </div>
+          <div class="browser-content">
+            <div class="image-wrapper" style="aspect-ratio: 16/9; margin-bottom: 1rem;">
+          <img src="images/mockup-corporate-preview.jpeg" alt="Web Development Agency - Corporate Preview" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/mockup-corporate-preview.jpeg'">
+        </div>
+            <h4 style="margin-bottom: 0.4rem;">Corporate & Enterprise</h4>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Structured multi-page layouts showcasing organizational capabilities, leadership, and investor relations.</p>
+            <a href="business-websites.html" class="portfolio-link">Explore Business Solution &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Mockup Card 2: E-commerce -->
+        <div class="browser-mockup reveal reveal-delay-1">
+          <div class="browser-toolbar">
+            <div class="browser-dots">
+              <span class="browser-dot dot-red"></span>
+              <span class="browser-dot dot-yellow"></span>
+              <span class="browser-dot dot-green"></span>
+            </div>
+            <div class="browser-address">
+              <span>demo.agency/storefront</span>
+            </div>
+          </div>
+          <div class="browser-content">
+            <div class="image-wrapper" style="aspect-ratio: 16/9; margin-bottom: 1rem;">
+          <img src="images/mockup-ecommerce-preview.jpeg" alt="Web Development Agency - Ecommerce Preview" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/mockup-ecommerce-preview.jpeg'">
+        </div>
+            <h4 style="margin-bottom: 0.4rem;">E-Commerce Stores</h4>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Fast-loading product catalogs, responsive cart sidebars, and conversion-engineered product pages.</p>
+            <a href="ecommerce-websites.html" class="portfolio-link">Explore E-commerce Solution &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Mockup Card 3: Real Estate -->
+        <div class="browser-mockup reveal reveal-delay-2">
+          <div class="browser-toolbar">
+            <div class="browser-dots">
+              <span class="browser-dot dot-red"></span>
+              <span class="browser-dot dot-yellow"></span>
+              <span class="browser-dot dot-green"></span>
+            </div>
+            <div class="browser-address">
+              <span>demo.agency/properties</span>
+            </div>
+          </div>
+          <div class="browser-content">
+            <div class="image-wrapper" style="aspect-ratio: 16/9; margin-bottom: 1rem;">
+          <img src="images/mockup-realestate-preview.jpeg" alt="Web Development Agency - Realestate Preview" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/mockup-realestate-preview.jpeg'">
+        </div>
+            <h4 style="margin-bottom: 0.4rem;">Real Estate Portals</h4>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Property listings with high-resolution image galleries, amenities filters, and booking enquiry forms.</p>
+            <a href="industries.html" class="portfolio-link">Explore Real Estate Solution &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Mockup Card 4: Healthcare -->
+        <div class="browser-mockup reveal">
+          <div class="browser-toolbar">
+            <div class="browser-dots">
+              <span class="browser-dot dot-red"></span>
+              <span class="browser-dot dot-yellow"></span>
+              <span class="browser-dot dot-green"></span>
+            </div>
+            <div class="browser-address">
+              <span>demo.agency/healthcare</span>
+            </div>
+          </div>
+          <div class="browser-content">
+            <div class="image-wrapper" style="aspect-ratio: 16/9; margin-bottom: 1rem;">
+          <img src="images/mockup-healthcare-preview.jpeg" alt="Web Development Agency - Healthcare Preview" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/mockup-healthcare-preview.jpeg'">
+        </div>
+            <h4 style="margin-bottom: 0.4rem;">Healthcare & Clinics</h4>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Accessible layouts with doctor directories, treatment guides, and appointment enquiry modules.</p>
+            <a href="industries.html" class="portfolio-link">Explore Healthcare Solution &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Mockup Card 5: SaaS Dashboard -->
+        <div class="browser-mockup reveal reveal-delay-1">
+          <div class="browser-toolbar">
+            <div class="browser-dots">
+              <span class="browser-dot dot-red"></span>
+              <span class="browser-dot dot-yellow"></span>
+              <span class="browser-dot dot-green"></span>
+            </div>
+            <div class="browser-address">
+              <span>demo.agency/cloud-app</span>
+            </div>
+          </div>
+          <div class="browser-content">
+            <div class="image-wrapper" style="aspect-ratio: 16/9; margin-bottom: 1rem;">
+          <img src="images/mockup-saas-preview.jpeg" alt="Web Development Agency - Saas Preview" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/mockup-saas-preview.jpeg'">
+        </div>
+            <h4 style="margin-bottom: 0.4rem;">SaaS Product & App UI</h4>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">High-tech product landing pages combined with responsive client dashboard interfaces.</p>
+            <a href="web-applications.html" class="portfolio-link">Explore Web App Solution &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Mockup Card 6: Portfolio -->
+        <div class="browser-mockup reveal reveal-delay-2">
+          <div class="browser-toolbar">
+            <div class="browser-dots">
+              <span class="browser-dot dot-red"></span>
+              <span class="browser-dot dot-yellow"></span>
+              <span class="browser-dot dot-green"></span>
+            </div>
+            <div class="browser-address">
+              <span>demo.agency/creatives</span>
+            </div>
+          </div>
+          <div class="browser-content">
+            <div class="image-wrapper" style="aspect-ratio: 16/9; margin-bottom: 1rem;">
+          <img src="images/mockup-portfolio-preview.jpeg" alt="Web Development Agency - Preview" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/mockup-portfolio-preview.jpeg'">
+        </div>
+            <h4 style="margin-bottom: 0.4rem;">Professional Portfolios</h4>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Showcase layouts for designers, software developers, consultants, and independent agencies.</p>
+            <a href="portfolio-websites.html" class="portfolio-link">Explore Portfolio Solution &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected Portfolio Showcase Preview -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Visual Work Examples</span>
+        <h2 class="section-title">Selected Portfolio Presentations</h2>
+        <p class="section-subtitle">Exemplary website designs engineered for speed, clean UX structure, and responsiveness.</p>
+        <div class="demo-disclaimer-box" style="display: inline-flex; margin-top: 1.25rem;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          <span>Illustrative Demo Projects — Not Client Projects or Endorsements</span>
+        </div>
+      </div>
+
+      <div class="portfolio-grid">
+        <!-- Project 1 -->
+        <div class="portfolio-item reveal">
+          <div class="portfolio-thumb">
+            <div class="image-wrapper" style="aspect-ratio: 16/10;">
+          <img src="images/portfolio-business-corporate.jpeg" alt="Web Development Agency - Business Corporate" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/portfolio-business-corporate.jpeg'">
+        </div>
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-cat">Corporate Website Demo</span>
+            <h3 class="portfolio-title">Enterprise Business Solution</h3>
+            <p class="portfolio-desc">Modern multi-page architecture designed for business credibility, stakeholder communication, and service inquiries.</p>
+            <div class="portfolio-tags">
+              <span class="badge badge-primary">Corporate</span>
+              <span class="badge badge-secondary">Responsive</span>
+              <span class="badge badge-demo">Demo</span>
+            </div>
+            <a href="project-details.html" class="portfolio-link">Inspect Case Study &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-item reveal reveal-delay-1">
+          <div class="portfolio-thumb">
+            <div class="image-wrapper" style="aspect-ratio: 16/10;">
+          <img src="images/portfolio-real-estate-luxury.jpeg" alt="Web Development Agency - Real Estate Luxury" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/portfolio-real-estate-luxury.jpeg'">
+        </div>
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-cat">Real Estate Website Demo</span>
+            <h3 class="portfolio-title">Luxury Property Showcase</h3>
+            <p class="portfolio-desc">Interactive property catalog with floor plans, high-res photo carousels, and automated schedule-a-viewing form designs.</p>
+            <div class="portfolio-tags">
+              <span class="badge badge-primary">Real Estate</span>
+              <span class="badge badge-secondary">Visual Gallery</span>
+              <span class="badge badge-demo">Demo</span>
+            </div>
+            <a href="project-details.html" class="portfolio-link">Inspect Case Study &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="portfolio-item reveal reveal-delay-2">
+          <div class="portfolio-thumb">
+            <div class="image-wrapper" style="aspect-ratio: 16/10;">
+          <img src="images/portfolio-ecommerce-lifestyle.jpeg" alt="Web Development Agency - Ecommerce Lifestyle" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/portfolio-ecommerce-lifestyle.jpeg'">
+        </div>
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-cat">E-commerce Website Demo</span>
+            <h3 class="portfolio-title">Modern Retail Brand Experience</h3>
+            <p class="portfolio-desc">High-engagement retail storefront mockup featuring product variants, quick-cart interaction, and seamless category navigation.</p>
+            <div class="portfolio-tags">
+              <span class="badge badge-primary">E-commerce</span>
+              <span class="badge badge-secondary">Storefront UI</span>
+              <span class="badge badge-demo">Demo</span>
+            </div>
+            <a href="project-details.html" class="portfolio-link">Inspect Case Study &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 3rem;" class="reveal">
+        <a href="portfolio.html" class="btn btn-primary">
+          View Complete Portfolio Gallery (10 Demo Projects)
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industries We Serve Section -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Sector Experience</span>
+        <h2 class="section-title">Designed for Diverse Industry Demands</h2>
+        <p class="section-subtitle">We adapt website structures to match the specific conversion funnels of varied industries.</p>
+      </div>
+
+      <div class="grid-4">
+        <div class="card card-glass reveal">
+          <h4 style="margin-bottom: 0.5rem; color: var(--accent-secondary);">Real Estate</h4>
+          <p style="font-size: 0.88rem; margin-bottom: 1rem;">Showcase developments, filter unit layouts, and capture prospective buyer leads.</p>
+          <a href="industries.html" class="portfolio-link" style="font-size: 0.85rem;">View Features &rarr;</a>
+        </div>
+        <div class="card card-glass reveal reveal-delay-1">
+          <h4 style="margin-bottom: 0.5rem; color: var(--accent-secondary);">Healthcare</h4>
+          <p style="font-size: 0.88rem; margin-bottom: 1rem;">Doctor bios, departments, patient guidelines, and appointment scheduling.</p>
+          <a href="industries.html" class="portfolio-link" style="font-size: 0.85rem;">View Features &rarr;</a>
+        </div>
+        <div class="card card-glass reveal reveal-delay-2">
+          <h4 style="margin-bottom: 0.5rem; color: var(--accent-secondary);">Education</h4>
+          <p style="font-size: 0.88rem; margin-bottom: 1rem;">Course listings, admissions guides, campus facilities, and event notices.</p>
+          <a href="industries.html" class="portfolio-link" style="font-size: 0.85rem;">View Features &rarr;</a>
+        </div>
+        <div class="card card-glass reveal reveal-delay-3">
+          <h4 style="margin-bottom: 0.5rem; color: var(--accent-secondary);">Hospitality & Dining</h4>
+          <p style="font-size: 0.88rem; margin-bottom: 1rem;">Digital food menus, table reservation requests, and location ambiance galleries.</p>
+          <a href="industries.html" class="portfolio-link" style="font-size: 0.85rem;">View Features &rarr;</a>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 2.5rem;" class="reveal">
+        <a href="industries.html" class="btn btn-outline btn-sm">Explore All 12 Industry Solutions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose A Professional Agency -->
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="align-items: center;">
+        <div class="reveal">
+          <span class="section-tag">Engineering Quality</span>
+          <h2 style="margin-bottom: 1.5rem;">Why Choose a Dedicated Web Development Agency?</h2>
+          <p style="margin-bottom: 1.25rem;">
+            A business website is not just a digital brochure; it is your primary sales representative operating 24 hours a day, 7 days a week. DIY website builders and bloated templates often cause slow load speeds, poor SEO indexing, and clunky mobile experiences.
+          </p>
+          <p style="margin-bottom: 1.75rem;">
+            We handcraft clean frontend code with semantic HTML5, modern CSS3, and Vanilla JavaScript, ensuring lightning-fast load times, flawless responsiveness across every device, and intuitive pathways for user action.
+          </p>
+
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <div style="display: flex; gap: 1rem; align-items: flex-start;">
+              <div style="width: 28px; height: 28px; border-radius: 6px; background: rgba(91, 140, 255, 0.15); display: flex; align-items: center; justify-content: center; color: var(--accent-primary); flex-shrink: 0; margin-top: 3px;">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong style="color: var(--text-main); font-size: 1rem;">Zero Dependency Bloat</strong>
+                <p style="font-size: 0.88rem; margin-top: 0.2rem;">Lightweight static architecture eliminates heavy framework overhead and runtime vulnerabilities.</p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 1rem; align-items: flex-start;">
+              <div style="width: 28px; height: 28px; border-radius: 6px; background: rgba(54, 214, 232, 0.15); display: flex; align-items: center; justify-content: center; color: var(--accent-secondary); flex-shrink: 0; margin-top: 3px;">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong style="color: var(--text-main); font-size: 1rem;">Hostinger Static Hosting Ready</strong>
+                <p style="font-size: 0.88rem; margin-top: 0.2rem;">Fully portable static files that deploy effortlessly on affordable, ultra-fast static web servers.</p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 1rem; align-items: flex-start;">
+              <div style="width: 28px; height: 28px; border-radius: 6px; background: rgba(152, 120, 255, 0.15); display: flex; align-items: center; justify-content: center; color: var(--accent-highlight); flex-shrink: 0; margin-top: 3px;">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong style="color: var(--text-main); font-size: 1rem;">Built-in Technical SEO Hygiene</strong>
+                <p style="font-size: 0.88rem; margin-top: 0.2rem;">Accurate Open Graph tags, schema structure, semantic headings, and clean sitemaps for crawlability.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-1">
+          <div class="image-wrapper" style="aspect-ratio: 4/3;">
+          <img src="images/home-strategy-collaboration.jpeg" alt="Web Development Agency - Home Strategy Collaboration" class="img-fluid" loading="lazy" onerror="this.onerror=null;this.src='assets/images/home-strategy-collaboration.jpeg'">
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5-Step Development Process -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Structured Workflow</span>
+        <h2 class="section-title">From First Conversation to Website Launch</h2>
+        <p class="section-subtitle">A transparent, phased methodology ensuring clarity, alignment, and predictable project milestones.</p>
+      </div>
+
+      <div class="process-timeline">
+        <!-- Step 1 -->
+        <div class="process-card reveal">
+          <div class="process-step-num">01</div>
+          <h4>Discovery</h4>
+          <p>Understand target audience, business priorities, feature requirements, and competitive positioning.</p>
+        </div>
+        <!-- Step 2 -->
+        <div class="process-card reveal reveal-delay-1">
+          <div class="process-step-num">02</div>
+          <h4>Planning</h4>
+          <p>Define the sitemap, URL hierarchy, page wireframes, content outlines, and interaction specifications.</p>
+        </div>
+        <!-- Step 3 -->
+        <div class="process-card reveal reveal-delay-2">
+          <div class="process-step-num">03</div>
+          <h4>Design</h4>
+          <p>Craft high-fidelity dark-mode layouts, color palettes, responsive states, and typography tokens.</p>
+        </div>
+        <!-- Step 4 -->
+        <div class="process-card reveal reveal-delay-1">
+          <div class="process-step-num">04</div>
+          <h4>Development</h4>
+          <p>Translate visual designs into clean, semantic HTML5, CSS3 styling, and modular Vanilla JavaScript.</p>
+        </div>
+        <!-- Step 5 -->
+        <div class="process-card reveal reveal-delay-2">
+          <div class="process-step-num">05</div>
+          <h4>Testing & Launch</h4>
+          <p>Audit cross-browser rendering, mobile responsiveness, form logic, and prepare static deployment assets.</p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 3rem;" class="reveal">
+        <a href="process.html" class="btn btn-secondary">Read Detailed Workflow Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technologies & Tools Overview -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Tech Stack</span>
+        <h2 class="section-title">Modern, Reliable Technologies</h2>
+        <p class="section-subtitle">We select battle-tested web standards to provide fast page speeds, long-term stability, and easy maintenance.</p>
+      </div>
+
+      <div class="grid-4 text-center">
+        <div class="card reveal">
+          <h4 style="color: var(--accent-primary); margin-bottom: 0.5rem;">HTML5 & Semantic Web</h4>
+          <p style="font-size: 0.88rem;">Accessible markup, clean tag hierarchy, and search engine crawlable content.</p>
+        </div>
+        <div class="card reveal reveal-delay-1">
+          <h4 style="color: var(--accent-secondary); margin-bottom: 0.5rem;">Modern CSS3</h4>
+          <p style="font-size: 0.88rem;">Flexbox, CSS Grid, custom properties, and GPU-accelerated smooth animations.</p>
+        </div>
+        <div class="card reveal reveal-delay-2">
+          <h4 style="color: var(--accent-highlight); margin-bottom: 0.5rem;">Vanilla JavaScript</h4>
+          <p style="font-size: 0.88rem;">Lightweight DOM interactions, step validation, and high performance without heavy libraries.</p>
+        </div>
+        <div class="card reveal reveal-delay-3">
+          <h4 style="color: var(--text-main); margin-bottom: 0.5rem;">Static Hosting Ready</h4>
+          <p style="font-size: 0.88rem;">Instant load times, ultra-low hosting costs, and straightforward deployment on Hostinger.</p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 2rem;" class="reveal">
+        <a href="technologies.html" class="portfolio-link">Explore Full Technology Capabilities &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section (Accordion) -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Common Enquiries</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Clear answers to frequent questions about website development, scoping, and timelines.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item active reveal">
+          <button class="faq-question" aria-expanded="true">
+            <span>How do I start a website project with your agency?</span>
+            <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+          </button>
+          <div class="faq-answer">
+            <p>You can begin by completing our interactive project brief form on the "Start a Project" page or reaching out via our contact page. We review your business type, required features, and timeline expectations to prepare a customized project scope.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-1">
+          <button class="faq-question" aria-expanded="false">
+            <span>Are all websites mobile-friendly and responsive?</span>
+            <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. Every website we design is developed with a mobile-first philosophy and tested across mobile viewports (360px to 480px), tablets (768px), laptops (1024px), and large desktop displays to ensure flawless legibility and navigation.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-2">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can you redesign an existing, outdated website?</span>
+            <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. We offer complete website redesign services. We analyze what content is performing well, re-engineer your visual design to modern standards, improve mobile performance, and restructure navigation for higher conversion.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-3">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can this website be hosted on Hostinger static hosting?</span>
+            <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. Because the website is built entirely with clean HTML5, CSS3, and Vanilla JavaScript with no complex backend runtime dependencies, it is 100% compatible with Hostinger static hosting, Netlify, Vercel, or any standard web server.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 2.5rem;" class="reveal">
+        <a href="faq.html" class="btn btn-outline btn-sm">View All Categorized FAQs</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Banner -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <span class="section-tag" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: #fff;">Let's Collaborate</span>
+        <h2>Ready to Build a Website Designed Around Your Business Goals?</h2>
+        <p>Whether you require a corporate business website, an e-commerce platform, or a custom landing page, we are ready to bring your digital vision to life.</p>
+        <div class="btn-group" style="justify-content: center;">
+          <a href="start-project.html" class="btn btn-primary btn-lg">Start Your Project Brief</a>
+          <a href="contact.html" class="btn btn-secondary btn-lg">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Multi-Column Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand Info -->
+        <div class="footer-col">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 1rem;">
+            <div class="brand-symbol">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <span class="brand-text">WEB DEVELOPMENT AGENCY</span>
+          </a>
+          <p>Professional website design and development solutions for businesses, startups, and growing brands.</p>
+          <div class="demo-disclaimer-box" style="margin-top: 1.5rem;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            <span>Demonstration Website Showcase — All content and mockups are illustrative.</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Services -->
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="website-design.html" class="footer-link">Website Design</a></li>
+            <li><a href="business-websites.html" class="footer-link">Business Websites</a></li>
+            <li><a href="ecommerce-websites.html" class="footer-link">E-commerce Websites</a></li>
+            <li><a href="landing-pages.html" class="footer-link">Landing Pages</a></li>
+            <li><a href="web-applications.html" class="footer-link">Web Applications</a></li>
+            <li><a href="website-redesign.html" class="footer-link">Website Redesign</a></li>
+            <li><a href="seo-services.html" class="footer-link">SEO Services</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Company -->
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="industries.html" class="footer-link">Industries</a></li>
+            <li><a href="portfolio.html" class="footer-link">Portfolio</a></li>
+            <li><a href="process.html" class="footer-link">Process</a></li>
+            <li><a href="pricing.html" class="footer-link">Pricing</a></li>
+            <li><a href="careers.html" class="footer-link">Careers</a></li>
+            <li><a href="blog.html" class="footer-link">Blog & Insights</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact Dummy Details -->
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>0000000000</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <a href="mailto:demo@example.com" style="color: inherit;">demo@example.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 WEB DEVELOPMENT AGENCY. Illustrative Demonstration Website.
+        </div>
+        <div class="footer-legal-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-and-conditions.html">Terms and Conditions</a>
+          <a href="technologies.html">Technologies</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+
+  <!-- Core Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/interactions.js"></script>
+  <script src="assets/js/portfolio.js"></script>
+</body>
+</html>

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | WEB DEVELOPMENT AGENCY</title>
+  <meta name="description" content="Get in touch with our web development agency. Discuss your website requirements, request a free project estimation, or schedule a technical consultation.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Navigation Header (Streamlined to 4 Core Links) -->
+  <!-- Navigation Header -->
+  <header class="site-header" id="header">
+    <div class="header-inner container">
+      <a href="index.html" class="brand-logo" aria-label="Web Development Agency Home">
+        <div class="logo-symbol">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <span class="logo-text">WEB DEVELOPMENT AGENCY</span>
+      </a>
+
+      <!-- Clean Header: Only 4 Core Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="start-project.html" class="btn btn-primary btn-sm">Start a Project</a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Open navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Navigation -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <div class="logo-text">WEB DEVELOPMENT AGENCY</div>
+      <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="Close navigation menu">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="services.html" class="mobile-nav-link">Services</a></li>
+      <li><a href="portfolio.html" class="mobile-nav-link">Portfolio</a></li>
+      <li><a href="contact.html" class="mobile-nav-link active">Contact</a></li>
+    </ul>
+    <div class="mobile-drawer-footer">
+      <a href="start-project.html" class="btn btn-primary btn-block">Start a Project</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Enhanced Hero Header -->
+    <section class="contact-hero-compact">
+      <div class="container text-center">
+        <div class="badge badge-accent mb-3">Direct Agency Consultation</div>
+        <h1 class="hero-title" style="margin-bottom: 1rem;">Let's Build Something Exceptional Together.</h1>
+        <p class="hero-subtitle" style="max-width: 760px; margin: 0 auto 1.5rem;">
+          Have a project in mind, need a technical consultation, or want an accurate scope estimate? Connect directly with our senior web architects and engineering leads.
+        </p>
+        
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 1.25rem;">
+          <div class="studio-status-badge">
+            <span class="pulse-dot"></span>
+            <span>Average Response: Under 4 Hours</span>
+          </div>
+          <div class="studio-status-badge" style="border-color: rgba(91,140,255,0.3); color: var(--accent-primary);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+            <span>100% Confidential • NDA Ready</span>
+          </div>
+          <div class="studio-status-badge" style="border-color: rgba(152,120,255,0.3); color: var(--highlight);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Direct Tech Lead Access</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Contact & Inquiry Layout Grid -->
+    <section class="section" style="padding-top: 1rem;">
+      <div class="container">
+        <div class="contact-layout-grid">
+          
+          <!-- LEFT COLUMN: Agency Studio & Direct Channels -->
+          <div class="contact-channels-wrapper">
+            
+            <!-- Studio Workstation Preview Card -->
+            <div class="contact-office-card">
+              <div class="contact-office-img-wrap">
+                <img src="images/contact-hero-office.jpeg" alt="Web Development Agency Studio Workspace" loading="eager" onerror="this.onerror=null;this.src='assets/images/contact-hero-office.jpeg'">
+                <div class="contact-office-overlay">
+                  <div class="studio-status-badge">
+                    <span class="pulse-dot"></span>
+                    <span>Active Studio • Hyderabad Strategy Lab</span>
+                  </div>
+                  <h3 class="h5" style="margin-top: 0.5rem; margin-bottom: 0; color: #FFFFFF;">WEB DEVELOPMENT AGENCY HQ</h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- Direct Contact Channel Cards -->
+            <div style="display: flex; flex-direction: column; gap: 0.85rem;">
+              
+              <!-- Phone Channel -->
+              <a href="tel:0000000000" class="channel-card-item">
+                <div class="channel-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="channel-info">
+                  <div class="channel-title">Direct Phone Consultation</div>
+                  <div class="channel-value">0000000000</div>
+                  <div class="channel-badge">Mon – Sat: 9:00 AM – 6:00 PM IST</div>
+                </div>
+                <span class="channel-arrow">→</span>
+              </a>
+
+              <!-- Email Channel -->
+              <a href="mailto:demo@example.com" class="channel-card-item">
+                <div class="channel-icon-box" style="background: linear-gradient(135deg, rgba(54,214,232,0.15), rgba(91,140,255,0.15)); border-color: rgba(54,214,232,0.3); color: var(--accent-secondary);">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="channel-info">
+                  <div class="channel-title">Technical Project Inquiries</div>
+                  <div class="channel-value">demo@example.com</div>
+                  <div class="channel-badge">Send RFP briefs & technical specs</div>
+                </div>
+                <span class="channel-arrow">→</span>
+              </a>
+
+              <!-- WhatsApp Demo Concept -->
+              <div class="channel-card-item" style="cursor: pointer;" onclick="alert('WhatsApp Integration Demo: In production client deployments, this button opens an authenticated WhatsApp Business conversation with our project lead.');">
+                <div class="channel-icon-box" style="background: linear-gradient(135deg, rgba(16,185,129,0.15), rgba(54,214,232,0.15)); border-color: rgba(16,185,129,0.3); color: #10B981;">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                  </svg>
+                </div>
+                <div class="channel-info">
+                  <div class="channel-title">WhatsApp Business Gateway</div>
+                  <div class="channel-value">Chat with Project Strategist</div>
+                  <div class="channel-badge" style="color: #10B981;">⚡ Instant messaging demo</div>
+                </div>
+                <span class="channel-arrow">→</span>
+              </div>
+
+              <!-- Address Channel -->
+              <div class="channel-card-item">
+                <div class="channel-icon-box" style="background: linear-gradient(135deg, rgba(152,120,255,0.15), rgba(91,140,255,0.15)); border-color: rgba(152,120,255,0.3); color: var(--highlight);">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="channel-info">
+                  <div class="channel-title">Studio Headquarters</div>
+                  <div class="channel-value" style="font-size: 0.95rem;">Plot No. 000, Demo Road, Sample Area</div>
+                  <div class="channel-badge" style="color: var(--text-secondary);">Hyderabad, Telangana – 000000</div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Simulated Dark Location Map Component -->
+            <div class="simulated-map-card">
+              <div class="map-viewport">
+                <!-- Abstract Street Grid Lines -->
+                <svg class="map-roads" width="100%" height="100%" viewBox="0 0 400 200" preserveAspectRatio="none">
+                  <line x1="0" y1="60" x2="400" y2="80" stroke="rgba(91,140,255,0.18)" stroke-width="2" />
+                  <line x1="0" y1="140" x2="400" y2="120" stroke="rgba(91,140,255,0.15)" stroke-width="3" />
+                  <line x1="80" y1="0" x2="120" y2="200" stroke="rgba(91,140,255,0.15)" stroke-width="2" />
+                  <line x1="240" y1="0" x2="210" y2="200" stroke="rgba(54,214,232,0.25)" stroke-width="4" />
+                  <line x1="320" y1="0" x2="350" y2="200" stroke="rgba(91,140,255,0.15)" stroke-width="2" />
+                  <circle cx="215" cy="115" r="45" fill="none" stroke="rgba(54,214,232,0.12)" stroke-width="1.5" />
+                </svg>
+
+                <!-- Animated Beacon Pin -->
+                <div class="map-pin-beacon">
+                  <div class="map-radar-ring"></div>
+                  <div class="map-pin-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                    </svg>
+                  </div>
+                  <div class="map-pin-label">Hyderabad HQ Studio</div>
+                </div>
+              </div>
+
+              <div class="map-card-footer">
+                <span class="map-coords">📍 17.3850° N, 78.4867° E</span>
+                <button type="button" class="btn btn-secondary btn-sm" onclick="alert('Map Integration Demo: In production client builds, this triggers the interactive Google Maps JavaScript API with custom dark-mode styling.');" style="padding: 0.35rem 0.75rem; font-size: 0.75rem;">
+                  Open Map View
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- RIGHT COLUMN: High-Impact Project Inquiry Card -->
+          <div>
+            <div class="inquiry-form-card">
+              
+              <div style="margin-bottom: 1.5rem;">
+                <div class="badge badge-primary mb-2">Project Scoping</div>
+                <h2 class="h3 mb-1" style="color: #FFFFFF;">Send a Project Inquiry</h2>
+                <p class="text-secondary text-sm mb-0">Select your service focus and tell us about your goals.</p>
+              </div>
+
+              <form id="contactForm" class="contact-form" novalidate>
+                
+                <!-- 1. Interactive Service Picker Pills -->
+                <div class="form-group mb-4">
+                  <label class="form-label" style="font-weight: 600; display: flex; justify-content: space-between;">
+                    <span>Primary Service Required <span class="text-danger">*</span></span>
+                    <span class="text-xs text-secondary">Click to select</span>
+                  </label>
+                  
+                  <div class="service-pills-grid">
+                    <button type="button" class="service-pill-btn active" data-service="Website Design & Development">🎨 Website Design & Dev</button>
+                    <button type="button" class="service-pill-btn" data-service="Business Website Development">🏢 Business Website</button>
+                    <button type="button" class="service-pill-btn" data-service="E-commerce Platforms">🛒 E-commerce Store</button>
+                    <button type="button" class="service-pill-btn" data-service="Landing Page Development">🎯 Landing Page</button>
+                    <button type="button" class="service-pill-btn" data-service="Portfolio Website">💼 Portfolio Site</button>
+                    <button type="button" class="service-pill-btn" data-service="Custom Web Application">⚡ Web Application</button>
+                    <button type="button" class="service-pill-btn" data-service="WordPress CMS Development">🌐 WordPress CMS</button>
+                    <button type="button" class="service-pill-btn" data-service="Website Redesign">🔄 Website Redesign</button>
+                    <button type="button" class="service-pill-btn" data-service="Technical SEO Services">📈 SEO Optimization</button>
+                    <button type="button" class="service-pill-btn" data-service="Website Maintenance SLA">🛡️ Maintenance Support</button>
+                  </div>
+
+                  <!-- Hidden Input storing selected value for form handling -->
+                  <input type="hidden" id="serviceRequired" name="serviceRequired" value="Website Design & Development">
+                </div>
+
+                <!-- 2. Name & Company Fields -->
+                <div class="grid grid-2 mb-3" style="gap: 1.25rem;">
+                  <div class="form-group">
+                    <label for="fullName" class="form-label">Full Name <span class="text-danger">*</span></label>
+                    <input type="text" id="fullName" name="fullName" class="form-control" placeholder="e.g. Alex Morgan" required>
+                    <div class="form-error">Please enter your name (minimum 2 characters).</div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="companyName" class="form-label">Company / Brand Name <span class="text-secondary text-xs">(Optional)</span></label>
+                    <input type="text" id="companyName" name="companyName" class="form-control" placeholder="e.g. Horizon Labs">
+                  </div>
+                </div>
+
+                <!-- 3. Email & Phone Fields -->
+                <div class="grid grid-2 mb-3" style="gap: 1.25rem;">
+                  <div class="form-group">
+                    <label for="email" class="form-label">Work Email <span class="text-danger">*</span></label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="alex@horizonlabs.com" required>
+                    <div class="form-error">Please enter a valid work email address.</div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="phone" class="form-label">Phone Number <span class="text-danger">*</span></label>
+                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="+91 98765 43210" required>
+                    <div class="form-error">Please provide a valid contact number.</div>
+                  </div>
+                </div>
+
+                <!-- 4. Estimated Budget Tier Pills -->
+                <div class="form-group mb-3">
+                  <label class="form-label">Estimated Budget Scale</label>
+                  <div class="budget-pills-row">
+                    <label class="budget-pill-option">
+                      <input type="radio" name="budget" value="Starter Tier ($1,500 – $3,000)">
+                      <div class="budget-pill-box">Starter<br><span style="font-size: 0.72rem; color: var(--text-muted);">$1.5k – $3k</span></div>
+                    </label>
+
+                    <label class="budget-pill-option">
+                      <input type="radio" name="budget" value="Growth Tier ($3,000 – $6,000)" checked>
+                      <div class="budget-pill-box">Growth<br><span style="font-size: 0.72rem; color: var(--text-muted);">$3k – $6k</span></div>
+                    </label>
+
+                    <label class="budget-pill-option">
+                      <input type="radio" name="budget" value="Scale Tier ($6,000 – $12,000)">
+                      <div class="budget-pill-box">Scale<br><span style="font-size: 0.72rem; color: var(--text-muted);">$6k – $12k</span></div>
+                    </label>
+
+                    <label class="budget-pill-option">
+                      <input type="radio" name="budget" value="Enterprise / Custom ($12,000+)">
+                      <div class="budget-pill-box">Custom<br><span style="font-size: 0.72rem; color: var(--text-muted);">$12k+</span></div>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- 5. Scope & Timeline Textarea -->
+                <div class="form-group mb-4">
+                  <label for="projectMessage" class="form-label">Project Details & Objectives <span class="text-danger">*</span></label>
+                  <textarea id="projectMessage" name="projectMessage" class="form-control" rows="4" placeholder="Briefly describe what your business does, your target audience, required features (e.g. CMS, payment gateway, custom animations), and ideal launch date..." required></textarea>
+                  <div class="form-error">Please share some brief details about your project (at least 8 characters).</div>
+                </div>
+
+                <!-- 6. NDA Checkbox -->
+                <div class="form-group mb-4">
+                  <label style="display: flex; align-items: flex-start; gap: 0.75rem; cursor: pointer; user-select: none;">
+                    <input type="checkbox" name="requestNDA" checked style="margin-top: 0.25rem; accent-color: var(--accent-primary);">
+                    <span class="text-sm text-secondary">
+                      I would like to receive a standard mutual Non-Disclosure Agreement (NDA) with our preliminary scope proposal.
+                    </span>
+                  </label>
+                </div>
+
+                <!-- 7. Submit Action Button -->
+                <button type="submit" class="btn btn-primary btn-block btn-lg" id="contactSubmitBtn" style="font-size: 1.05rem; padding: 1rem 1.5rem;">
+                  <span>Submit Project Inquiry</span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+
+                <!-- 8. Trust Guarantee Footer Strip -->
+                <div class="trust-guarantee-strip">
+                  <div class="trust-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>No Obligation Proposal</span>
+                  </div>
+                  <div class="trust-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>NDA Protected</span>
+                  </div>
+                  <div class="trust-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Direct Engineering Review</span>
+                  </div>
+                </div>
+
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Transparent 3-Step What Happens Next Timeline -->
+    <section class="section section-secondary">
+      <div class="container text-center">
+        <div class="badge badge-accent mb-2">Clear Expectations</div>
+        <h2 class="section-title">What Happens After You Inquire?</h2>
+        <p class="section-subtitle">
+          We maintain a structured, zero-fluff communication workflow from your initial inquiry to final deployment.
+        </p>
+
+        <div class="grid grid-3 mt-5" style="text-align: left; gap: 2rem;">
+          
+          <div class="card" style="position: relative; border-color: rgba(91,140,255,0.25);">
+            <div style="display: flex; justify-content: space-between; align-items: center;" class="mb-3">
+              <span class="badge badge-accent" style="font-size: 0.8rem;">Step 1</span>
+              <span class="text-xs text-muted">Within 24 Hours</span>
+            </div>
+            <h3 class="h4 mb-2">Technical Scope Audit</h3>
+            <p class="text-secondary text-sm">
+              Our lead engineers and UI strategists review your requirements, analyze competitive benchmarks, and assess architectural dependencies.
+            </p>
+          </div>
+
+          <div class="card" style="position: relative; border-color: rgba(54,214,232,0.25);">
+            <div style="display: flex; justify-content: space-between; align-items: center;" class="mb-3">
+              <span class="badge badge-secondary" style="font-size: 0.8rem;">Step 2</span>
+              <span class="text-xs text-muted">30-Min Video Call</span>
+            </div>
+            <h3 class="h4 mb-2">Discovery Consultation</h3>
+            <p class="text-secondary text-sm">
+              We coordinate an initial discovery video call to align on design aesthetic, technology stack trade-offs, and critical timeline milestones.
+            </p>
+          </div>
+
+          <div class="card" style="position: relative; border-color: rgba(152,120,255,0.25);">
+            <div style="display: flex; justify-content: space-between; align-items: center;" class="mb-3">
+              <span class="badge badge-primary" style="font-size: 0.8rem;">Step 3</span>
+              <span class="text-xs text-muted">Fixed Milestone SOW</span>
+            </div>
+            <h3 class="h4 mb-2">Detailed Proposal & Roadmap</h3>
+            <p class="text-secondary text-sm">
+              You receive an itemized proposal with transparent milestone payments, Figma design sprint dates, and committed delivery SLAs.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="card mt-5" style="background: rgba(91,140,255,0.05); border: 1px dashed rgba(91,140,255,0.3); max-width: 800px; margin-left: auto; margin-right: auto; padding: 2rem;">
+          <h3 class="h5 mb-2">Prefer a structured 5-step project planner?</h3>
+          <p class="text-secondary text-sm mb-3">
+            If you already have clear parameters for page counts, integrations, and milestones, use our interactive self-guided planner.
+          </p>
+          <a href="start-project.html" class="btn btn-secondary">
+            <span>Launch 5-Step Project Planner</span>
+            <span style="margin-left: 0.5rem;">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Page FAQs Accordion -->
+    <section class="section">
+      <div class="container" style="max-width: 860px;">
+        <div class="text-center mb-5">
+          <div class="badge badge-primary mb-2">Common Questions</div>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Quick answers to common questions about starting a project with us.</p>
+        </div>
+
+        <div class="accordion">
+          
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>How fast will I receive a formal quotation?</span>
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p class="text-secondary text-sm">
+                After you submit your inquiry, our technical leads evaluate the requirements within 24 business hours. If your requirements are clearly defined, we provide a preliminary estimate within 1 business day. For custom web applications, we schedule a quick 30-minute discovery call to finalize scope before issuing a binding proposal.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>Can we execute a Non-Disclosure Agreement (NDA) before sharing details?</span>
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p class="text-secondary text-sm">
+                Yes, absolutely. We regularly sign mutual NDAs for startups, proprietary web apps, and enterprise corporations. Simply check the NDA box in the form above or email your standard agreement to demo@example.com prior to sending confidential specifications.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>Do you work with international clients outside India?</span>
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p class="text-secondary text-sm">
+                Yes. Our web development agency collaborates with clients across North America, the UK, Europe, Australia, and the Middle East. We maintain flexible working hours to overlap with US and European timezones, and utilize Slack, Figma, and Google Meet for seamless remote collaboration.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>How are project payments structured?</span>
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p class="text-secondary text-sm">
+                We work on transparent, milestone-based payment schedules. Typically: 30% upfront upon contract execution, 30% upon approval of Figma UI/UX designs, 30% upon staging server completion and user testing, and the remaining 10% following live production deployment and handover.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Polished Demo Confirmation Modal -->
+  <div class="demo-modal" id="demoSuccessModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="demo-modal-dialog">
+      <div class="modal-icon-success">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+      </div>
+      
+      <div class="badge badge-accent mb-2">Simulated Demo Submission</div>
+      <h3 class="h3 mb-2" id="modalTitle">Inquiry Received Successfully!</h3>
+      <p class="text-secondary text-sm mb-4">
+        Thank you for submitting your project details to <strong class="text-primary">WEB DEVELOPMENT AGENCY</strong>.
+      </p>
+
+      <div class="card card-sm mb-4" style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-color); text-align: left; padding: 1.25rem;">
+        <div class="text-xs text-secondary mb-2" style="font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;">Simulated Submission Record:</div>
+        <div id="modalSummaryData" class="text-sm">
+          <!-- Populated dynamically via interactions.js -->
+        </div>
+      </div>
+
+      <p class="text-xs text-secondary mb-4" style="line-height: 1.6;">
+        ℹ️ <em>In a live production deployment, this form triggers an authenticated webhook to your CRM (HubSpot/Salesforce), dispatches confirmation emails, and alerts your lead engineer via Slack.</em>
+      </p>
+
+      <button type="button" class="btn btn-primary btn-block modal-close-btn" id="modalCloseBtn">
+        Close Confirmation
+      </button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <a href="index.html" class="brand-logo mb-3">
+          <div class="logo-symbol">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+          </div>
+          <span class="logo-text">WEB DEVELOPMENT AGENCY</span>
+        </a>
+        <p class="text-secondary text-sm mb-3">
+          We design and develop websites that help businesses grow. Engineered with modern clean code, responsive layouts, and performance-first architecture.
+        </p>
+        <div class="badge badge-accent">Demonstration Website</div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Services</h4>
+        <ul class="footer-links">
+          <li><a href="website-design.html">Website Design & Dev</a></li>
+          <li><a href="business-websites.html">Business Websites</a></li>
+          <li><a href="ecommerce-websites.html">E-commerce Platforms</a></li>
+          <li><a href="landing-pages.html">Landing Pages</a></li>
+          <li><a href="portfolio-websites.html">Portfolio Websites</a></li>
+          <li><a href="web-applications.html">Web Applications</a></li>
+          <li><a href="wordpress-websites.html">WordPress Development</a></li>
+          <li><a href="website-redesign.html">Website Redesign</a></li>
+          <li><a href="seo-services.html">SEO Services</a></li>
+          <li><a href="website-maintenance.html">Website Maintenance</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Agency</a></li>
+          <li><a href="industries.html">Industries Served</a></li>
+          <li><a href="portfolio.html">Case Studies Portfolio</a></li>
+          <li><a href="process.html">Development Process</a></li>
+          <li><a href="pricing.html">Pricing Packages</a></li>
+          <li><a href="technologies.html">Technologies & Tools</a></li>
+          <li><a href="careers.html">Career Opportunities</a></li>
+          <li><a href="blog.html">Articles & Guides</a></li>
+          <li><a href="faq.html">Agency FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Contact & Studio</h4>
+        <p class="text-secondary text-sm mb-2">
+          <strong>Phone:</strong> 0000000000
+        </p>
+        <p class="text-secondary text-sm mb-2">
+          <strong>Email:</strong> demo@example.com
+        </p>
+        <p class="text-secondary text-sm mb-2">
+          <strong>Office:</strong> Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000
+        </p>
+        <p class="text-secondary text-sm mb-3">
+          <strong>Hours:</strong> Mon – Sat: 9:00 AM – 6:00 PM IST
+        </p>
+        <a href="start-project.html" class="btn btn-secondary btn-sm btn-block">Start Project Brief</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div class="copyright-text">
+        &copy; 2026-2027 WEB DEVELOPMENT AGENCY. All Rights Reserved. Built as a high-performance static agency demo.
+      </div>
+      <div class="footer-legal-links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-and-conditions.html">Terms & Conditions</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/interactions.js"></script>
+</body>
+</html>

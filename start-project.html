@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Start a Project | Interactive Project Planner | WEB DEVELOPMENT AGENCY</title>
+  <meta name="description" content="Plan and configure your website project with our 5-step interactive brief planner. Specify your website type, features, timeline, and budget.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header" id="header">
+    <div class="header-inner container">
+      <a href="index.html" class="brand-logo" aria-label="Web Development Agency Home">
+        <div class="logo-symbol">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <span class="logo-text">WEB DEVELOPMENT AGENCY</span>
+      </a>
+
+      <!-- Clean Header: Only 4 Core Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="start-project.html" class="btn btn-primary btn-sm">Start a Project</a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Open navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Navigation -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <div class="logo-text">WEB DEVELOPMENT AGENCY</div>
+      <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="Close navigation menu">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="services.html" class="mobile-nav-link">Services</a></li>
+      <li><a href="portfolio.html" class="mobile-nav-link">Portfolio</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div class="mobile-drawer-footer">
+      <a href="start-project.html" class="btn btn-primary btn-block">Start a Project</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="page-hero reveal">
+      <div class="container text-center">
+        <div class="badge badge-accent mb-3">5-Step Project Scoping Planner</div>
+        <h1 class="hero-title">Tell Us About Your Website Project.</h1>
+        <p class="hero-subtitle">
+          Complete our interactive brief planner to outline your industry, feature requirements, estimated timeline, and budget parameters. Receive an accurate, transparent estimation from our engineering team.
+        </p>
+      </div>
+    </section>
+
+    <!-- Hero Image Placeholder -->
+    <div class="container mb-5 reveal">
+      <div class="image-wrapper" style="aspect-ratio: 16/9; max-height: 440px;">
+          <img src="images/start-project-hero-planning.jpeg" alt="Web Development Agency - Start Project Hero Planning" class="img-fluid" loading="eager" onerror="this.onerror=null;this.src='assets/images/start-project-hero-planning.jpeg'">
+        </div>
+    </div>
+
+    <!-- Multi-Step Interactive Form Section -->
+    <section class="section">
+      <div class="container" style="max-width: 900px;">
+        
+        <!-- Stepper Node Indicator -->
+        <div class="stepper-nav mb-5 reveal">
+          <div class="stepper-progress-track">
+            <div class="stepper-progress-bar" style="width: 0%;"></div>
+          </div>
+          <div class="stepper-nodes">
+            <div class="step-node active" data-step="1">
+              <div class="node-circle">1</div>
+              <span class="node-label">Contact</span>
+            </div>
+            <div class="step-node" data-step="2">
+              <div class="node-circle">2</div>
+              <span class="node-label">Type</span>
+            </div>
+            <div class="step-node" data-step="3">
+              <div class="node-circle">3</div>
+              <span class="node-label">Features</span>
+            </div>
+            <div class="step-node" data-step="4">
+              <div class="node-circle">4</div>
+              <span class="node-label">Budget</span>
+            </div>
+            <div class="step-node" data-step="5">
+              <div class="node-circle">5</div>
+              <span class="node-label">Review</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Card Container -->
+        <div class="card card-glow reveal" style="padding: 2.5rem;">
+          <form id="multiStepForm" novalidate>
+
+            <!-- STEP 1: CONTACT DETAILS -->
+            <div class="form-step active" data-step="1">
+              <div class="badge badge-primary mb-2">Step 1 of 5</div>
+              <h2 class="h3 mb-2">Your Contact Information</h2>
+              <p class="text-secondary text-sm mb-4">
+                Let us know who we should send the proposal and preliminary project roadmap to.
+              </p>
+
+              <div class="form-group mb-3">
+                <label for="briefName" class="form-label">Full Name <span class="text-danger">*</span></label>
+                <input type="text" id="briefName" name="name" class="form-control" placeholder="e.g. Jordan Smith" required>
+                <div class="form-error-msg">Please enter your full name (minimum 2 characters).</div>
+              </div>
+
+              <div class="grid grid-2 mb-3" style="gap: 1.25rem;">
+                <div class="form-group">
+                  <label for="briefEmail" class="form-label">Email Address <span class="text-danger">*</span></label>
+                  <input type="email" id="briefEmail" name="email" class="form-control" placeholder="name@company.com" required>
+                  <div class="form-error-msg">Please enter a valid work or personal email address.</div>
+                </div>
+
+                <div class="form-group">
+                  <label for="briefPhone" class="form-label">Phone Number <span class="text-danger">*</span></label>
+                  <input type="tel" id="briefPhone" name="phone" class="form-control" placeholder="+91 98765 43210" required>
+                  <div class="form-error-msg">Please enter a valid phone or WhatsApp number.</div>
+                </div>
+              </div>
+
+              <div class="form-group mb-4">
+                <label for="briefCompany" class="form-label">Company / Brand Name <span class="text-secondary text-xs">(Optional)</span></label>
+                <input type="text" id="briefCompany" name="company" class="form-control" placeholder="e.g. Nexa Dynamics Ltd.">
+              </div>
+            </div>
+
+            <!-- STEP 2: PROJECT DETAILS -->
+            <div class="form-step" data-step="2">
+              <div class="badge badge-accent mb-2">Step 2 of 5</div>
+              <h2 class="h3 mb-2">Website Type & Business Sector</h2>
+              <p class="text-secondary text-sm mb-4">
+                Select your industry vertical and the architectural category of website you need.
+              </p>
+
+              <div class="form-group mb-4">
+                <label for="briefBusinessType" class="form-label">Industry Sector <span class="text-danger">*</span></label>
+                <select id="briefBusinessType" name="businessType" class="form-control" required>
+                  <option value="" disabled selected>Select your primary industry</option>
+                  <option value="Real Estate & Property Development">Real Estate & Property Development</option>
+                  <option value="Healthcare, Clinics & Hospitals">Healthcare, Clinics & Hospitals</option>
+                  <option value="Educational Institutions & Academies">Educational Institutions & Academies</option>
+                  <option value="E-commerce & Consumer Retail">E-commerce & Consumer Retail</option>
+                  <option value="Restaurants & Hospitality">Restaurants & Hospitality</option>
+                  <option value="Architecture & Interior Design">Architecture & Interior Design</option>
+                  <option value="Consulting & Professional Services">Consulting & Professional Services</option>
+                  <option value="Fitness Centers & Wellness Studios">Fitness Centers & Wellness Studios</option>
+                  <option value="Manufacturing & Industrial Supplies">Manufacturing & Industrial Supplies</option>
+                  <option value="Technology, SaaS & Startups">Technology, SaaS & Startups</option>
+                  <option value="Financial & Legal Advisory">Financial & Legal Advisory</option>
+                  <option value="Travel Agencies & Tour Operators">Travel Agencies & Tour Operators</option>
+                  <option value="Other Industry Vertical">Other Industry Vertical</option>
+                </select>
+                <div class="form-error-msg">Please select an industry sector.</div>
+              </div>
+
+              <div class="form-group mb-3">
+                <label class="form-label">Select Primary Website Architecture <span class="text-danger">*</span></label>
+                <div class="radio-card-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+                  
+                  <label class="radio-card">
+                    <input type="radio" name="websiteType" value="Custom Business Website" checked>
+                    <div class="radio-card-body">
+                      <div class="radio-card-icon">🏢</div>
+                      <div class="radio-card-title">Business Website</div>
+                      <div class="radio-card-desc">Corporate multi-page presentation</div>
+                    </div>
+                  </label>
+
+                  <label class="radio-card">
+                    <input type="radio" name="websiteType" value="E-commerce Online Store">
+                    <div class="radio-card-body">
+                      <div class="radio-card-icon">🛒</div>
+                      <div class="radio-card-title">E-commerce Store</div>
+                      <div class="radio-card-desc">Product catalog & checkout flow</div>
+                    </div>
+                  </label>
+
+                  <label class="radio-card">
+                    <input type="radio" name="websiteType" value="High-Converting Landing Page">
+                    <div class="radio-card-body">
+                      <div class="radio-card-icon">🎯</div>
+                      <div class="radio-card-title">Landing Page</div>
+                      <div class="radio-card-desc">Campaign or product launch page</div>
+                    </div>
+                  </label>
+
+                  <label class="radio-card">
+                    <input type="radio" name="websiteType" value="Professional Portfolio">
+                    <div class="radio-card-body">
+                      <div class="radio-card-icon">💼</div>
+                      <div class="radio-card-title">Portfolio Website</div>
+                      <div class="radio-card-desc">Individual or creative showcase</div>
+                    </div>
+                  </label>
+
+                  <label class="radio-card">
+                    <input type="radio" name="websiteType" value="Custom Web Application">
+                    <div class="radio-card-body">
+                      <div class="radio-card-icon">⚡</div>
+                      <div class="radio-card-title">Web Application</div>
+                      <div class="radio-card-desc">Client portal, dashboard, or SaaS UI</div>
+                    </div>
+                  </label>
+
+                  <label class="radio-card">
+                    <input type="radio" name="websiteType" value="Website Redesign & Migration">
+                    <div class="radio-card-body">
+                      <div class="radio-card-icon">🔄</div>
+                      <div class="radio-card-title">Website Redesign</div>
+                      <div class="radio-card-desc">Complete overhaul of legacy website</div>
+                    </div>
+                  </label>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- STEP 3: SCOPE & FEATURES -->
+            <div class="form-step" data-step="3">
+              <div class="badge badge-secondary mb-2">Step 3 of 5</div>
+              <h2 class="h3 mb-2">Scope & Key Capabilities</h2>
+              <p class="text-secondary text-sm mb-4">
+                Define the estimated page count and functional integrations your project requires.
+              </p>
+
+              <div class="form-group mb-4">
+                <label for="briefPages" class="form-label">Estimated Number of Pages</label>
+                <select id="briefPages" name="pageCount" class="form-control">
+                  <option value="Single-Page Landing Experience (1 Page)">Single-Page Landing Experience (1 Page)</option>
+                  <option value="Starter Business Website (2 – 5 Pages)" selected>Starter Business Website (2 – 5 Pages)</option>
+                  <option value="Established Corporate Website (6 – 12 Pages)">Established Corporate Website (6 – 12 Pages)</option>
+                  <option value="Extensive Multi-Page Platform (13 – 25+ Pages)">Extensive Multi-Page Platform (13 – 25+ Pages)</option>
+                  <option value="Large Scale / Custom Catalogue Portal">Large Scale / Custom Catalogue Portal</option>
+                </select>
+              </div>
+
+              <div class="form-group mb-4">
+                <label class="form-label">Desired Capabilities & Integrations (Select all that apply)</label>
+                <div class="checkbox-pill-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.75rem;">
+                  
+                  <label class="checkbox-pill">
+                    <input type="checkbox" name="features" value="Fully Responsive Mobile Layout" checked>
+                    <span>📱 Fully Responsive Mobile Layout</span>
+                  </label>
+
+                  <label class="checkbox-pill">
+                    <input type="checkbox" name="features" value="Custom Interactive UI Components" checked>
+                    <span>✨ Interactive UI & CSS Animations</span>
+                  </label>
+
+                  <label class="checkbox-pill">
+                    <input type="checkbox" name="features" value="Content Management System (CMS)">
+                    <span>📝 Content Management (CMS)</span>
+                  </label>
+
+                  <label class="checkbox-pill">
+                    <input type="checkbox" name="features" value="Lead Generation & Quotation Forms" checked>
+                    <span>📬 Lead Capture & Quotation Forms</span>
+                  </label>
+
+                  <label class="checkbox-pill">
+                    <input type="checkbox" name="features" value="E-commerce Cart & Product Catalog">
+                    <span>🛍️ E-commerce Product Catalog</span>
+                  </label>
+
+                  <label class="checkbox-pill">
+                    <input type="checkbox" name="features" value="Search Engine Optimization (SEO)" checked>
+                    <span>🔍 Technical On-Page SEO Engine</span>
+                  </label>
+
+                  <label class="checkbox-pill">
+                    <input type="checkbox" name="features" value="Multi-Language Localization">
+                    <span>🌍 Multi-Language Localization</span>
+                  </label>
+
+                  <label class="checkbox-pill">
+                    <input type="checkbox" name="features" value="WhatsApp & Maps API Integrations">
+                    <span>💬 WhatsApp / Maps Integration</span>
+                  </label>
+
+                  <label class="checkbox-pill">
+                    <input type="checkbox" name="features" value="Ongoing Maintenance & Security SLA">
+                    <span>🛡️ Ongoing Maintenance SLA</span>
+                  </label>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- STEP 4: BUDGET & TIMELINE -->
+            <div class="form-step" data-step="4">
+              <div class="badge badge-accent mb-2">Step 4 of 5</div>
+              <h2 class="h3 mb-2">Timeline & Budget Parameters</h2>
+              <p class="text-secondary text-sm mb-4">
+                Aligning timeline and investment scale allows us to assign the optimal engineering sprint team.
+              </p>
+
+              <div class="form-group mb-4">
+                <label class="form-label">Preferred Project Completion Target <span class="text-danger">*</span></label>
+                <div class="grid grid-3" style="gap: 1rem;">
+                  <label class="radio-card">
+                    <input type="radio" name="timeline" value="Accelerated Sprint (2 – 3 Weeks)">
+                    <div class="radio-card-body">
+                      <div class="radio-card-title">⚡ Accelerated Sprint</div>
+                      <div class="radio-card-desc">2 – 3 Weeks completion</div>
+                    </div>
+                  </label>
+
+                  <label class="radio-card">
+                    <input type="radio" name="timeline" value="Standard Production (4 – 6 Weeks)" checked>
+                    <div class="radio-card-body">
+                      <div class="radio-card-title">📅 Standard Production</div>
+                      <div class="radio-card-desc">4 – 6 Weeks completion</div>
+                    </div>
+                  </label>
+
+                  <label class="radio-card">
+                    <input type="radio" name="timeline" value="Flexible Roadmap (8+ Weeks)">
+                    <div class="radio-card-body">
+                      <div class="radio-card-title">🌱 Flexible Roadmap</div>
+                      <div class="radio-card-desc">8+ Weeks milestone phases</div>
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group mb-4">
+                <label class="form-label">Estimated Budget Tier <span class="text-danger">*</span></label>
+                <div class="grid grid-3" style="gap: 1rem;">
+                  <label class="radio-card">
+                    <input type="radio" name="budgetRange" value="Starter Tier (Focused Presentation)">
+                    <div class="radio-card-body">
+                      <div class="radio-card-title">Starter Tier</div>
+                      <div class="radio-card-desc">Standard business or landing site</div>
+                    </div>
+                  </label>
+
+                  <label class="radio-card">
+                    <input type="radio" name="budgetRange" value="Business Tier (Growth Platform)" checked>
+                    <div class="radio-card-body">
+                      <div class="radio-card-title">Business Tier</div>
+                      <div class="radio-card-desc">Dynamic multi-page commercial platform</div>
+                    </div>
+                  </label>
+
+                  <label class="radio-card">
+                    <input type="radio" name="budgetRange" value="Advanced / Enterprise Tier">
+                    <div class="radio-card-body">
+                      <div class="radio-card-title">Advanced Tier</div>
+                      <div class="radio-card-desc">Custom web app or bespoke commerce</div>
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- STEP 5: REVIEW & CONFIRMATION -->
+            <div class="form-step" data-step="5">
+              <div class="badge badge-primary mb-2">Step 5 of 5</div>
+              <h2 class="h3 mb-2">Review Your Project Brief</h2>
+              <p class="text-secondary text-sm mb-4">
+                Please verify your project configuration summary before dispatching your request.
+              </p>
+
+              <!-- Live Summary Box populated by interactions.js -->
+              <div class="card mb-4" id="briefReviewSummary" style="background: rgba(91,140,255,0.04); border-color: rgba(91,140,255,0.25); padding: 1.5rem;">
+                <!-- Populated dynamically via interactions.js -->
+              </div>
+
+              <div class="card card-sm mb-4" style="background: rgba(255,255,255,0.02); border: 1px dashed var(--border-color);">
+                <div class="text-xs text-secondary">
+                  <strong>🔒 Agency Guarantee:</strong> We hold all project briefs in strict confidence. Your specifications are used exclusively to draft technical specifications and an itemized fixed-fee quotation.
+                </div>
+              </div>
+            </div>
+
+            <!-- Form Navigation Action Bar -->
+            <div class="stepper-controls mt-4" style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+              <button type="button" class="btn btn-secondary" id="stepPrevBtn" style="display: none;">
+                &larr; Previous Step
+              </button>
+              
+              <div style="margin-left: auto; display: flex; gap: 1rem;">
+                <button type="button" class="btn btn-primary" id="stepNextBtn">
+                  <span>Continue</span>
+                  <span>&rarr;</span>
+                </button>
+                <button type="submit" class="btn btn-primary btn-lg" id="stepSubmitBtn" style="display: none;">
+                  <span>Submit Project Brief</span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Why Fill Out A Brief Section -->
+    <section class="section section-secondary reveal">
+      <div class="container text-center">
+        <h2 class="section-title">Why Use Our Project Planner?</h2>
+        <p class="section-subtitle">
+          Structured requirements allow us to accelerate proposal turnaround and deliver higher architectural precision.
+        </p>
+
+        <div class="grid grid-3 mt-5" style="text-align: left;">
+          <div class="card">
+            <div style="font-size: 2rem;" class="mb-2">⏱️</div>
+            <h3 class="h4 mb-2">Faster Turnaround</h3>
+            <p class="text-secondary text-sm">
+              Clear scope eliminates back-and-forth discovery friction, allowing us to deliver your formal engineering proposal within 24 hours.
+            </p>
+          </div>
+
+          <div class="card">
+            <div style="font-size: 2rem;" class="mb-2">🎯</div>
+            <h3 class="h4 mb-2">Accurate Quotations</h3>
+            <p class="text-secondary text-sm">
+              We provide fixed, transparent price quotes based on your exact page count and functional needs without surprise scope creep.
+            </p>
+          </div>
+
+          <div class="card">
+            <div style="font-size: 2rem;" class="mb-2">🛠️</div>
+            <h3 class="h4 mb-2">Optimal Tech Stack</h3>
+            <p class="text-secondary text-sm">
+              Knowing your maintenance preferences and scaling targets helps us select between pure vanilla frontend, custom WordPress, or full web app architecture.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Demo Confirmation Modal -->
+  <div class="demo-modal-overlay" id="demoSuccessModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" style="display: none;">
+    <div class="demo-modal-content">
+      <div class="modal-icon-badge">🚀</div>
+      <h3 class="h3 mb-2" id="modalTitle">Project Brief Received (Demo Mode)</h3>
+      <p class="text-secondary mb-4">
+        Thank you for submitting your detailed requirements to <strong class="text-primary">WEB DEVELOPMENT AGENCY</strong>!
+      </p>
+      <div class="card card-sm mb-4" style="background: rgba(255,255,255,0.03); text-align: left;">
+        <div class="text-xs text-secondary mb-1">RECORDED BRIEF DATA:</div>
+        <div id="modalSummaryData" class="text-sm"></div>
+      </div>
+      <p class="text-xs text-secondary mb-4">
+        * In a production deployment, this automated pipeline logs the brief into your CRM, notifies lead designers, and triggers a confirmation email to the client with discovery call calendar links.
+      </p>
+      <button class="btn btn-primary btn-block" id="modalCloseBtn">Return to Website</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <a href="index.html" class="brand-logo mb-3">
+          <div class="logo-symbol">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+          </div>
+          <span class="logo-text">WEB DEVELOPMENT AGENCY</span>
+        </a>
+        <p class="text-secondary text-sm mb-3">
+          We design and develop websites that help businesses grow. Engineered with modern clean code, responsive layouts, and performance-first architecture.
+        </p>
+        <div class="badge badge-accent">Demonstration Website</div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Services</h4>
+        <ul class="footer-links">
+          <li><a href="website-design.html">Website Design & Dev</a></li>
+          <li><a href="business-websites.html">Business Websites</a></li>
+          <li><a href="ecommerce-websites.html">E-commerce Platforms</a></li>
+          <li><a href="landing-pages.html">Landing Pages</a></li>
+          <li><a href="portfolio-websites.html">Portfolio Websites</a></li>
+          <li><a href="web-applications.html">Web Applications</a></li>
+          <li><a href="wordpress-websites.html">WordPress Development</a></li>
+          <li><a href="website-redesign.html">Website Redesign</a></li>
+          <li><a href="seo-services.html">SEO Services</a></li>
+          <li><a href="website-maintenance.html">Website Maintenance</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Agency</a></li>
+          <li><a href="industries.html">Industries Served</a></li>
+          <li><a href="portfolio.html">Case Studies Portfolio</a></li>
+          <li><a href="process.html">Development Process</a></li>
+          <li><a href="pricing.html">Pricing Packages</a></li>
+          <li><a href="technologies.html">Technologies & Tools</a></li>
+          <li><a href="careers.html">Career Opportunities</a></li>
+          <li><a href="blog.html">Articles & Guides</a></li>
+          <li><a href="faq.html">Agency FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Contact & Studio</h4>
+        <p class="text-secondary text-sm mb-2">
+          <strong>Phone:</strong> 0000000000
+        </p>
+        <p class="text-secondary text-sm mb-2">
+          <strong>Email:</strong> demo@example.com
+        </p>
+        <p class="text-secondary text-sm mb-2">
+          <strong>Office:</strong> Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000
+        </p>
+        <p class="text-secondary text-sm mb-3">
+          <strong>Hours:</strong> Mon – Sat: 9:00 AM – 6:00 PM IST
+        </p>
+        <a href="contact.html" class="btn btn-secondary btn-sm btn-block">Direct Inquiry Page</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div class="copyright-text">
+        &copy; 2026-2027 WEB DEVELOPMENT AGENCY. All Rights Reserved. Built as a high-performance static agency demo.
+      </div>
+      <div class="footer-legal-links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-and-conditions.html">Terms & Conditions</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/interactions.js"></script>
+</body>
+</html>
