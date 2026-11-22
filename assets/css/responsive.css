@@ -1,0 +1,224 @@
+/* ==========================================================================
+   WEB DEVELOPMENT AGENCY — Responsive Media Queries
+   Flawless layout across Mobile (360px, 390px), Tablet (768px), Laptop (1024px), Desktop (1440px+)
+   ========================================================================== */
+
+/* Large Desktops / TVs */
+@media (min-width: 1600px) {
+  :root {
+    --container-max: 1360px;
+    --container-wide: 1520px;
+  }
+}
+
+/* Laptops & Standard Desktops (below 1200px) */
+@media (max-width: 1200px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .process-timeline {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hero-float-left {
+    left: 0;
+  }
+
+  .hero-float-right {
+    right: 0;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 2.5rem;
+  }
+}
+
+/* Tablet Landscape & Small Laptops (below 1024px) */
+@media (max-width: 1024px) {
+  .desktop-nav,
+  .nav-menu,
+  .nav-cta-btn {
+    display: none !important;
+  }
+
+  .mobile-toggle,
+  .mobile-nav-toggle {
+    display: flex !important;
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .pricing-card.featured {
+    transform: none;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+
+  .hero-float-card {
+    display: none; /* Hide floating accessories on medium tablets to prevent overlap */
+  }
+
+  .device-responsive-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .device-desktop,
+  .device-mobile {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+/* Tablets (below 768px) */
+@media (max-width: 768px) {
+  .section {
+    padding: 4rem 0;
+  }
+
+  .section-hero {
+    padding-top: calc(var(--header-height) + 2rem);
+    padding-bottom: 3.5rem;
+  }
+
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-timeline {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .stepper-header {
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .stepper-header::before,
+  .stepper-progress-bar {
+    display: none; /* Cleaner on mobile */
+  }
+
+  .multistep-container {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .cta-banner {
+    padding: 3rem 1.5rem;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn-group .btn {
+    width: 100%;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .footer-legal-links {
+    justify-content: center;
+  }
+
+  .back-to-top {
+    bottom: 1.25rem;
+    right: 1.25rem;
+  }
+}
+
+/* Mobile Devices (360px - 480px) */
+@media (max-width: 480px) {
+  :root {
+    --header-height: 70px;
+  }
+
+  .container,
+  .container-wide {
+    padding-left: 1.15rem;
+    padding-right: 1.15rem;
+  }
+
+  h1 {
+    font-size: 2.15rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .browser-toolbar {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .browser-dots {
+    gap: 4px;
+  }
+
+  .browser-dot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .browser-address {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .browser-content {
+    padding: 1rem;
+  }
+
+  .faq-question {
+    padding: 1rem 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  .faq-answer {
+    padding: 0 1.25rem;
+  }
+
+  .faq-item.active .faq-answer {
+    padding: 0 1.25rem 1.25rem;
+  }
+
+  .mobile-drawer {
+    width: 85vw;
+  }
+}
